@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import SummaryPage from '@/views/SummaryPage.vue'
 import TripCreationPage from '@/views/TripCreationPage.vue'
 import CurrentTripPage from '@/views/CurrentTripPage.vue'
+import ProfileView from '@/views/ProfileView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,6 +12,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: ProfileView,
     },
     {
       path: '/summary',
