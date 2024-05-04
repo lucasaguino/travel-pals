@@ -18,6 +18,15 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
 </script>
 
 <template>
+  <div
+    class="bg-cover relative bg-center h-[20rem]"
+    style="background-image: url(https://marketplace.canva.com/EAFqNrAJpQs/1/0/1600w/canva-neutral-pink-modern-circle-shape-linkedin-profile-picture-WAhofEY5L1U.jpg);"
+  >
+    <div
+      class="absolute w-full h-[5rem] bottom-0 bg-gradient-to-b from-white/0 to-white/100"
+    >
+    </div>
+  </div>
   <div>
     <header class="flex flex-col items-center p-4">
       <h3 class="text-5xl">{{ user.name }}</h3>
