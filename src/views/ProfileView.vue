@@ -1,42 +1,26 @@
 <script setup>
 import Timeline from 'primevue/timeline';
 import Card from 'primevue/card';
-import Button from 'primevue/button';
 
-const events = [{
-  icon: 'pi-map-marker',
-  location: 'Barcelona, Spain',
-  startDate: '02/03/2024',
-  endDate: '20/03/2024',
-  type: 'Tourist',
-  challengesCompleted: 12,
-  totalChallenges: 15,
-},
-{
-  icon: 'pi-map-marker',
-  location: 'Barcelona, Spain',
-  startDate: '02/03/2024',
-  endDate: '20/03/2024',
-  type: 'Tourist',
-  challengesCompleted: 12,
-  totalChallenges: 15,
-},
-{
-  icon: 'pi-map-marker',
-  location: 'Barcelona, Spain',
-  startDate: '02/03/2024',
-  endDate: '20/03/2024',
-  type: 'Tourist',
-  challengesCompleted: 9,
-  totalChallenges: 15,
-}]
+import { inject } from 'vue';
+
+
+
+const user = inject('user')
+
+const styleInfo = {
+  icon: 'pi-map-marker',  
+}
+
+
+const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
 
 </script>
 
 <template>
   <div>
     <header class="flex flex-col items-center p-4">
-      <h3 class="text-5xl">Michelle Tourism</h3>
+      <h3 class="text-5xl">{{ user.name }}</h3>
       <h5 class="mt-2 text-2xl">Expert Traveller</h5>
       <p class="mt-3">Visited <span class="font-bold text-xl">22</span> cities and <span class="font-bold text-xl">5</span> countries</p>
     </header>
@@ -50,23 +34,17 @@ const events = [{
       </template>
       <template #content="slotProps">
           <RouterLink to="/summary">
-            <Card class="mt-3">
+            <Card class="!mb-6">
               <template #title>
-                  {{ slotProps.item.location }}
+                  {{ slotProps.item.city }}
               </template>
               <template #subtitle>
               <div class="flex justify-between">
-                <span>{{ slotProps.item.startDate }} - {{ slotProps.item.endDate }}</span>
-                <span class="font-bold">{{ slotProps.item.challengesCompleted }} / {{ slotProps.item.totalChallenges }} challenges</span>
+                <span>{{ slotProps.item.date_start }} - {{ slotProps.item.date_end }}</span>
               </div>
               </template>
               <template #content>
                   <img v-if="slotProps.item.image" :src="`/images/product/${slotProps.item.image}`" width="200" class="shadow-sm" />
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
-                      neque quas!
-                  </p>
-                  <Button label="Read more" text></Button>
               </template>
             </Card>
           </RouterLink>
@@ -79,5 +57,6 @@ const events = [{
 
 .customized-timeline .p-timeline-event-opposite {
   flex: 0;
+  padding: 0;
 }
 </style>
