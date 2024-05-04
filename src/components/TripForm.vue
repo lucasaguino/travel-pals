@@ -44,26 +44,19 @@ function goToTrip() {
         <h1 class="!font-extrabold">Create your next adventure with us!</h1>
       </template>
       <template #content>
-        <div class="m-5  !my-5  flex place-content-between">
+        <div class="flex flex-wrap">
             <p class="!font-bold basis-1/3">Destination </p>
-
-            <div class="basis-2/3 card flex justify-content-center">
-                <Dropdown v-model="selectedCity" :options="cities" optionLabel="name" placeholder="Select a City" class="w-full md:w-14rem" />
-            </div>
-
+            <Dropdown v-model="selectedCity" :options="cities" optionLabel="name" placeholder="Select a City" class="w-full" />
         </div>
         
-        <div class="m-5  !my-5 flex place-content-between ">
+        <div class="flex flex-wrap !my-5 ">
             <p class="!font-bold basis-1/3">Dates </p>
-            <Calendar class="basis-2/3" v-model="dates"  selectionMode="range" />
+            <Calendar class="!w-100 calendar-input " v-model="dates" selectionMode="range" />
         </div>
-
-        <div class="m-5  !my-5  flex place-content-between">
+        <div class="m-5  !my-5  flex flex-wrap">
             <p class=" !font-bold basis-1/3">Category </p>
 
-            <div class="basis-2/3 card flex justify-content-center">
-                <Dropdown v-model="selectedCategory" :options="categories" optionLabel="name" placeholder="Select a Category" class="w-full md:w-14rem" />
-            </div>
+            <Dropdown v-model="selectedCategory" :options="categories" optionLabel="name" placeholder="Select a Category" class="!w-full" />
         </div>
 
         <div class="flex justify-end">
@@ -75,4 +68,16 @@ function goToTrip() {
 
   
 </template>
+
+<style>
+
+.calendar-input {
+  width: 100% !important;
+}
+
+.calendar-input input {
+  width: 100% !important;
+}
+
+</style>
 
