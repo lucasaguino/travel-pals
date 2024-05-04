@@ -5,7 +5,6 @@ import TripInfo from '../components/TripInfo.vue'
 
 <template>
   <div>
-    <i class="pi pi-bell-slash"></i>
     <TripInfo 
       :place="'Barcelona'"
       :country="'Spain'"
