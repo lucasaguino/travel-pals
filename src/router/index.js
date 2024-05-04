@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import SummaryPage from '@/views/SummaryPage.vue'
-import TripCreationPage from '@/views/TripCreationPage.vue'
 import CurrentTripPage from '@/views/CurrentTripPage.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import TripPage from '@/views/TripPage.vue'
@@ -28,11 +27,6 @@ const router = createRouter({
       path: '/trip-info',
       name: 'trip-info',
       component: TripPage,
-    },
-    {
-      path: '/tripCreation',
-      name: 'tripCreation',
-      component: TripCreationPage,
     },
     {
       path: '/currentTrip',

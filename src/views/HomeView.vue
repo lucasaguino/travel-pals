@@ -1,27 +1,27 @@
 <script setup>
 import TripInfo from '../components/TripInfo.vue'
-import Button from 'primevue/button';
-
+import TripForm from '../components/TripForm.vue'
 </script>
 
 <template>
-    <div class="!m-3 ">
-      <TripInfo 
-        :place="'Barcelona'"
-        :country="'Spain'"
-        :start-date="'02/03/2024'"
-        :end-date="'12/03/2024'"
-        ></TripInfo>
-    </div>
-
-      <div class="flex justify-center fixed bottom-0 left-0 right-0 p-4">
-        <RouterLink to="/tripCreation">
-          <Button label="Add New Trip" />
-        </RouterLink>
-      </div>
-  
-
-  
-
-
+  <div class="banner w-100 !p-10 flex justify-center">
+    <TripForm class="!w-[50rem]" />
+  </div>
+  <div class="!m-3 ">
+    <TripInfo 
+      :place="'Barcelona'"
+      :country="'Spain'"
+      :start-date="'02/03/2024'"
+      :end-date="'12/03/2024'"
+      ></TripInfo>
+  </div>
 </template>
+
+<style scoped>
+
+.banner {
+  background-image: url('@/assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+</style>
