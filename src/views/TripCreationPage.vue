@@ -7,21 +7,27 @@ import Button from 'primevue/button';
 
 import { ref } from "vue";
 
-  const selectedCity = ref();
-  const cities = ref([
-      { name: 'New York', code: 'NY' },
-      { name: 'Rome', code: 'RM' },
-      { name: 'London', code: 'LDN' },
-      { name: 'Istanbul', code: 'IST' },
-      { name: 'Paris', code: 'PRS' }
-  ]);
+const selectedCity = ref();
+const cities = ref([
+    { name: 'New York', code: 'NY' },
+    { name: 'Rome', code: 'RM' },
+    { name: 'London', code: 'LDN' },
+    { name: 'Istanbul', code: 'IST' },
+    { name: 'Paris', code: 'PRS' }
+]);
 
-  const selectedCategory = ref();
-  const categories = ref([
-      { name: 'Tourist', code: 'TOUR' },
-      { name: 'Business', code: 'BS' },
-      { name: 'Other', code: 'OTH' }
-  ]);
+const selectedCategory = ref();
+const categories = ref([
+    { name: 'Tourist', code: 'TOUR' },
+    { name: 'Business', code: 'BS' },
+    { name: 'Other', code: 'OTH' }
+]);
+
+const dates = ref();
+
+
+
+
 
 
 </script>
@@ -38,40 +44,44 @@ import { ref } from "vue";
     
 
     <form action="">
-        <div class="border-solid m-5 border-2 p-2 flex place-content-between">
-            <p>Destination: </p>
+      <Card class="!rounded-lg !m-5">
+          <template #content>
+            <div class="m-5  p-2 flex place-content-between">
+                <p class="basis-1/3">Destination </p>
 
-            <div class="card flex justify-content-center">
-                <Dropdown v-model="selectedCity" :options="cities" optionLabel="name" placeholder="Select a City" class="w-full md:w-14rem" />
+                <div class="basis-2/3 card flex justify-content-center">
+                    <Dropdown v-model="selectedCity" :options="cities" optionLabel="name" placeholder="Select a City" class="w-full md:w-14rem" />
+                </div>
+
+            </div>
+            
+            <div class="m-5  p-2 flex place-content-between ">
+                <p class="basis-1/3">Dates </p>
+                <Calendar class="basis-2/3" v-model="date"  selectionMode="range" />
             </div>
 
-        </div>
-        <div class="border-solid m-5 border-2 p-2 flex place-content-between ">
-            <p>Arrival date: </p>
-            <Calendar v-model="date" />
-        </div>
-        <div class="border-solid m-5 border-2 p-2 flex place-content-between">
-            <p>Departure date: </p>
-            <Calendar v-model="date" />
-        </div>
-        <div class="border-solid m-5 border-2 p-2 flex place-content-between">
-            <p>Category: </p>
+            <div class="m-5  p-2 flex place-content-between">
+                <p class="basis-1/3">Category </p>
 
-            <div class="card flex justify-content-center">
-                <Dropdown v-model="selectedCategory" :options="categories" optionLabel="name" placeholder="Select a Category" class="w-full md:w-14rem" />
+                <div class="basis-2/3 card flex justify-content-center">
+                    <Dropdown v-model="selectedCategory" :options="categories" optionLabel="name" placeholder="Select a Category" class="w-full md:w-14rem" />
+                </div>
             </div>
-        </div>
-        <div class="border-solid m-5 border-2 p-2 flex place-content-around">
-          
-          <RouterLink to="/">
-            <Button icon="pi pi-times " style="color : red" raised rounded aria-label="Cancel" />
-          </RouterLink>
+            <div class="p-5 flex place-content-around fixed bottom-0 left-0 right-0">
+              
+              <RouterLink to="/">            
+                <Button icon="pi pi-times" severity="danger" text raised rounded aria-label="Cancel" />
+              </RouterLink>
 
-          <RouterLink to="/currentTrip">
-            <Button icon="pi pi-check" style="color : green" raised rounded aria-label="Filter" />
-          </RouterLink>
+              <RouterLink to="/currentTrip">
+                <Button icon="pi pi-check" severity="success" text raised rounded aria-label="Confirm" />
+              </RouterLink>
 
-        </div>
+            </div>
+          </template>
+      </Card>
+
+        
     </form>
   </div>
 

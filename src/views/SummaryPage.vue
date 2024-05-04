@@ -1,4 +1,6 @@
 <script setup>
+import FileUpload from 'primevue/fileupload';
+
 
 </script>
 <template>
@@ -15,21 +17,27 @@
     </div>
     
 
-    <div class="border-solid m-5 border-2 p-2">
-      <h3 class=" text-center text-lg">Photo</h3>
       
-      <div class="flex justify-center">
-        <button class="border-solid border-2 grow">Upload Photo</button>
+      
+    <Card style="margin: 10px;">
+        <template #title>Photo</template>
+        <template #content>
 
-      </div>
-      
+    <div class="card flex justify-content-center">
+        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStSksdSGqrVSipcqrmyQk4tLjsiTWw-x2vga6mw438gw&s" alt="Image" width="250" />
     </div>
 
-    <div class="border-solid m-5 border-2 p-2">
-      <h3 class=" text-center text-lg">Information</h3>
-      <p>Visited on:</p>
-      <p>Visited with:</p>
-    </div>
+          
+        </template>
+    </Card>
+
+    <Card style="margin: 10px;">
+        <template #title>Information</template>
+        <template #content>
+          <p>Visited on:</p>
+          <p>Visited with:</p>
+        </template>
+    </Card>
 
     <div class="border-solid m-5 border-2 p-2">
       <h3 class="text-center text-lg">Description</h3>
