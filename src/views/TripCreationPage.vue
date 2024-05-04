@@ -25,11 +25,6 @@ const categories = ref([
 
 const dates = ref();
 
-
-
-
-
-
 </script>
 
 <template>
@@ -37,7 +32,7 @@ const dates = ref();
     <div class="flex items-center place-content-around m-5">
       <div class="text-center">
 
-        <h1 class="font-bold text-2xl">New Trip</h1>
+        <h1 class="font-bold text-2xl m-5">New Trip</h1>
       
       </div>
     </div>
@@ -57,7 +52,7 @@ const dates = ref();
             
             <div class="m-5  p-2 flex place-content-between ">
                 <p class="basis-1/3">Dates </p>
-                <Calendar class="basis-2/3" v-model="date"  selectionMode="range" />
+                <Calendar class="basis-2/3" v-model="dates" selectionMode="range" :manualInput="false" />
             </div>
 
             <div class="m-5  p-2 flex place-content-between">

@@ -23,7 +23,6 @@ const name = computed(() => user.name.split(" ")[0])
         class="!mr-4 shadow-md"
         image="https://marketplace.canva.com/EAFqNrAJpQs/1/0/1600w/canva-neutral-pink-modern-circle-shape-linkedin-profile-picture-WAhofEY5L1U.jpg" size="xlarge" shape="circle" 
       />
-      <p class="!font-bold text-black text-lg">{{ name }}</p>
     </RouterLink>
   </div>
 </template>
