@@ -14,9 +14,9 @@ import Divider from 'primevue/divider';
       <div></div>
     </header>
     <div>
-      <Card class="!m-5 !p-0">
+      <Card class="!p-0 !m-5 poi-card">
         <template #content>
-          <div  class="flex flex-row">
+          <div  class="flex flex-row !p-0">
             <div class="basis-3/4  !mr-5">
               <div class="flex justify-start items-center">
                 <h3 class="text-lg mr-3">Sagrada Familia</h3>
@@ -29,7 +29,7 @@ import Divider from 'primevue/divider';
             
           </div>
 
-          <div class="basis-1/4 bg-cover rounded-md" style="background-image: url(https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg)"></div>
+          <div class="basis-1/4 h-[10rem] bg-cover rounded-r-md" style="background-image: url(https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg)"></div>
 
           </div>
           
@@ -38,3 +38,15 @@ import Divider from 'primevue/divider';
     </div>
 </template>
 
+<style>
+.poi-card .p-card-body {
+  padding: 0 !important;
+}
+
+.poi-card .p-card-content {
+  padding: 0 !important;
+}
+
+
+
+</style>
