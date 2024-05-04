@@ -45,7 +45,7 @@ const events = [{
     <Timeline :value="events" class=" max-w-lg customized-timeline">
       <template #marker="slotProps">
           <span class="flex w-[2rem] h-[2rem] items-center justify-center text-white rounded-full z-20 shadow-sm">
-              <i :class="['pi',slotProps.item.icon]"></i>
+              <i :class="['pi text-fuchsia-600 dark:text-white',slotProps.item.icon]"></i>
           </span>
       </template>
       <template #content="slotProps">

@@ -4,6 +4,7 @@ import SummaryPage from '@/views/SummaryPage.vue'
 import TripCreationPage from '@/views/TripCreationPage.vue'
 import CurrentTripPage from '@/views/CurrentTripPage.vue'
 import ProfileView from '@/views/ProfileView.vue'
+import TripPage from '@/views/TripPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +23,11 @@ const router = createRouter({
       path: '/summary',
       name: 'summary',
       component: SummaryPage,
+    },
+    {
+      path: '/trip-info',
+      name: 'trip-info',
+      component: TripPage,
     },
     {
       path: '/tripCreation',

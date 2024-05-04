@@ -28,7 +28,7 @@ defineProps({
 </script>
 
 <template>
-  <RouterLink to="/summary">
+  <RouterLink to="/trip-info">
     <Card class="rounded-md">
       <template #content>
         <div class="flex justify-between">
