@@ -1,0 +1,1922 @@
+[
+    {
+        "city": "Barcelona",
+        "image": "miniatures/barcelona.jpg",
+        "places": [
+            {
+                "image": "barcelona/sagrada_familia.jpg",
+                "name": "Sagrada Familia",
+                "time": 243,
+                "weight": 15
+            },
+            {
+                "image": "barcelona/park_güell.jpg",
+                "name": "Park Güell",
+                "time": 63,
+                "weight": 14
+            },
+            {
+                "image": "barcelona/la_rambla.jpg",
+                "name": "La Rambla",
+                "time": 112,
+                "weight": 13
+            },
+            {
+                "image": "barcelona/gothic_quarter.jpg",
+                "name": "Gothic Quarter",
+                "time": 190,
+                "weight": 12
+            },
+            {
+                "image": "barcelona/picasso_museum.jpg",
+                "name": "Picasso Museum",
+                "time": 134,
+                "weight": 11
+            },
+            {
+                "image": "barcelona/casa_batlló.jpg",
+                "name": "Casa Batlló",
+                "time": 232,
+                "weight": 10
+            },
+            {
+                "image": "barcelona/casa_milà_(la_pedrera).jpg",
+                "name": "Casa Milà (La Pedrera)",
+                "time": 121,
+                "weight": 9
+            },
+            {
+                "image": "barcelona/montjuïc.jpg",
+                "name": "Montjuïc",
+                "time": 269,
+                "weight": 8
+            },
+            {
+                "image": "barcelona/palau_de_la_música_catalana.jpg",
+                "name": "Palau de la Música Catalana",
+                "time": 117,
+                "weight": 7
+            },
+            {
+                "image": "barcelona/barceloneta_beach.jpg",
+                "name": "Barceloneta Beach",
+                "time": 187,
+                "weight": 6
+            },
+            {
+                "image": "barcelona/magic_fountain.jpg",
+                "name": "Magic Fountain",
+                "time": 287,
+                "weight": 5
+            },
+            {
+                "image": "barcelona/poble_espanyol.jpg",
+                "name": "Poble Espanyol",
+                "time": 159,
+                "weight": 4
+            },
+            {
+                "image": "barcelona/fundació_joan_miró.jpg",
+                "name": "Fundació Joan Miró",
+                "time": 205,
+                "weight": 3
+            },
+            {
+                "image": "barcelona/barcelona_zoo.jpg",
+                "name": "Barcelona Zoo",
+                "time": 137,
+                "weight": 2
+            },
+            {
+                "image": "barcelona/camp_nou.jpg",
+                "name": "Camp Nou",
+                "time": 183,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Paris",
+        "image": "miniatures/paris.jpg",
+        "places": [
+            {
+                "image": "paris/eiffel_tower.jpg",
+                "name": "Eiffel Tower",
+                "time": 115,
+                "weight": 15
+            },
+            {
+                "image": "paris/louvre_museum.jpg",
+                "name": "Louvre Museum",
+                "time": 117,
+                "weight": 14
+            },
+            {
+                "image": "paris/notre_dame_cathedral.jpg",
+                "name": "Notre Dame Cathedral",
+                "time": 137,
+                "weight": 13
+            },
+            {
+                "image": "paris/champs-élysées.jpg",
+                "name": "Champs-Élysées",
+                "time": 213,
+                "weight": 12
+            },
+            {
+                "image": "paris/arc_de_triomphe.jpg",
+                "name": "Arc de Triomphe",
+                "time": 108,
+                "weight": 11
+            },
+            {
+                "image": "paris/montmartre.jpg",
+                "name": "Montmartre",
+                "time": 150,
+                "weight": 10
+            },
+            {
+                "image": "paris/sainte-chapelle.jpg",
+                "name": "Sainte-Chapelle",
+                "time": 96,
+                "weight": 9
+            },
+            {
+                "image": "paris/luxembourg_gardens.jpg",
+                "name": "Luxembourg Gardens",
+                "time": 147,
+                "weight": 8
+            },
+            {
+                "image": "paris/musée_d'orsay.jpg",
+                "name": "Musée d'Orsay",
+                "time": 260,
+                "weight": 7
+            },
+            {
+                "image": "paris/palais_garnier.jpg",
+                "name": "Palais Garnier",
+                "time": 60,
+                "weight": 6
+            },
+            {
+                "image": "paris/seine_river_cruises.jpg",
+                "name": "Seine River Cruises",
+                "time": 272,
+                "weight": 5
+            },
+            {
+                "image": "paris/père_lachaise_cemetery.jpg",
+                "name": "Père Lachaise Cemetery",
+                "time": 298,
+                "weight": 4
+            },
+            {
+                "image": "paris/le_marais.jpg",
+                "name": "Le Marais",
+                "time": 111,
+                "weight": 3
+            },
+            {
+                "image": "paris/panthéon.jpg",
+                "name": "Panthéon",
+                "time": 144,
+                "weight": 2
+            },
+            {
+                "image": "paris/sacré-cœur.jpg",
+                "name": "Sacré-Cœur",
+                "time": 126,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Rome",
+        "image": "miniatures/rome.jpg",
+        "places": [
+            {
+                "image": "rome/colosseum.jpg",
+                "name": "Colosseum",
+                "time": 226,
+                "weight": 15
+            },
+            {
+                "image": "rome/vatican_museums.jpg",
+                "name": "Vatican Museums",
+                "time": 125,
+                "weight": 14
+            },
+            {
+                "image": "rome/st._peter's_basilica.jpg",
+                "name": "St. Peter's Basilica",
+                "time": 217,
+                "weight": 13
+            },
+            {
+                "image": "rome/roman_forum.jpg",
+                "name": "Roman Forum",
+                "time": 153,
+                "weight": 12
+            },
+            {
+                "image": "rome/trevi_fountain.jpg",
+                "name": "Trevi Fountain",
+                "time": 199,
+                "weight": 11
+            },
+            {
+                "image": "rome/pantheon.jpg",
+                "name": "Pantheon",
+                "time": 292,
+                "weight": 10
+            },
+            {
+                "image": "rome/spanish_steps.jpg",
+                "name": "Spanish Steps",
+                "time": 169,
+                "weight": 9
+            },
+            {
+                "image": "rome/borghese_gallery.jpg",
+                "name": "Borghese Gallery",
+                "time": 181,
+                "weight": 8
+            },
+            {
+                "image": "rome/campo_de'_fiori.jpg",
+                "name": "Campo de' Fiori",
+                "time": 115,
+                "weight": 7
+            },
+            {
+                "image": "rome/piazza_navona.jpg",
+                "name": "Piazza Navona",
+                "time": 194,
+                "weight": 6
+            },
+            {
+                "image": "rome/capitoline_museums.jpg",
+                "name": "Capitoline Museums",
+                "time": 152,
+                "weight": 5
+            },
+            {
+                "image": "rome/trastevere.jpg",
+                "name": "Trastevere",
+                "time": 85,
+                "weight": 4
+            },
+            {
+                "image": "rome/appian_way.jpg",
+                "name": "Appian Way",
+                "time": 240,
+                "weight": 3
+            },
+            {
+                "image": "rome/palatine_hill.jpg",
+                "name": "Palatine Hill",
+                "time": 253,
+                "weight": 2
+            },
+            {
+                "image": "rome/baths_of_caracalla.jpg",
+                "name": "Baths of Caracalla",
+                "time": 266,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "London",
+        "image": "miniatures/london.jpg",
+        "places": [
+            {
+                "image": "london/british_museum.jpg",
+                "name": "British Museum",
+                "time": 135,
+                "weight": 15
+            },
+            {
+                "image": "london/tower_of_london.jpg",
+                "name": "Tower of London",
+                "time": 129,
+                "weight": 14
+            },
+            {
+                "image": "london/buckingham_palace.jpg",
+                "name": "Buckingham Palace",
+                "time": 175,
+                "weight": 13
+            },
+            {
+                "image": "london/tate_modern.jpg",
+                "name": "Tate Modern",
+                "time": 177,
+                "weight": 12
+            },
+            {
+                "image": "london/natural_history_museum.jpg",
+                "name": "Natural History Museum",
+                "time": 185,
+                "weight": 11
+            },
+            {
+                "image": "london/london_eye.jpg",
+                "name": "London Eye",
+                "time": 170,
+                "weight": 10
+            },
+            {
+                "image": "london/palace_of_westminster.jpg",
+                "name": "Palace of Westminster",
+                "time": 65,
+                "weight": 9
+            },
+            {
+                "image": "london/st._paul's_cathedral.jpg",
+                "name": "St. Paul's Cathedral",
+                "time": 219,
+                "weight": 8
+            },
+            {
+                "image": "london/hyde_park.jpg",
+                "name": "Hyde Park",
+                "time": 165,
+                "weight": 7
+            },
+            {
+                "image": "london/the_shard.jpg",
+                "name": "The Shard",
+                "time": 180,
+                "weight": 6
+            },
+            {
+                "image": "london/camden_market.jpg",
+                "name": "Camden Market",
+                "time": 78,
+                "weight": 5
+            },
+            {
+                "image": "london/greenwich_park.jpg",
+                "name": "Greenwich Park",
+                "time": 152,
+                "weight": 4
+            },
+            {
+                "image": "london/victoria_and_albert_museum.jpg",
+                "name": "Victoria and Albert Museum",
+                "time": 112,
+                "weight": 3
+            },
+            {
+                "image": "london/piccadilly_circus.jpg",
+                "name": "Piccadilly Circus",
+                "time": 177,
+                "weight": 2
+            },
+            {
+                "image": "london/covent_garden.jpg",
+                "name": "Covent Garden",
+                "time": 168,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Berlin",
+        "image": "miniatures/berlin.jpg",
+        "places": [
+            {
+                "image": "berlin/brandenburg_gate.jpg",
+                "name": "Brandenburg Gate",
+                "time": 83,
+                "weight": 15
+            },
+            {
+                "image": "berlin/reichstag_building.jpg",
+                "name": "Reichstag Building",
+                "time": 221,
+                "weight": 14
+            },
+            {
+                "image": "berlin/berlin_wall_memorial.jpg",
+                "name": "Berlin Wall Memorial",
+                "time": 204,
+                "weight": 13
+            },
+            {
+                "image": "berlin/museum_island.jpg",
+                "name": "Museum Island",
+                "time": 298,
+                "weight": 12
+            },
+            {
+                "image": "berlin/berlin_cathedral.jpg",
+                "name": "Berlin Cathedral",
+                "time": 153,
+                "weight": 11
+            },
+            {
+                "image": "berlin/charlottenburg_palace.jpg",
+                "name": "Charlottenburg Palace",
+                "time": 144,
+                "weight": 10
+            },
+            {
+                "image": "berlin/east_side_gallery.jpg",
+                "name": "East Side Gallery",
+                "time": 66,
+                "weight": 9
+            },
+            {
+                "image": "berlin/checkpoint_charlie.jpg",
+                "name": "Checkpoint Charlie",
+                "time": 102,
+                "weight": 8
+            },
+            {
+                "image": "berlin/tiergarten.jpg",
+                "name": "Tiergarten",
+                "time": 138,
+                "weight": 7
+            },
+            {
+                "image": "berlin/pergamon_museum.jpg",
+                "name": "Pergamon Museum",
+                "time": 295,
+                "weight": 6
+            },
+            {
+                "image": "berlin/alexanderplatz.jpg",
+                "name": "Alexanderplatz",
+                "time": 195,
+                "weight": 5
+            },
+            {
+                "image": "berlin/berlin_tv_tower.jpg",
+                "name": "Berlin TV Tower",
+                "time": 207,
+                "weight": 4
+            },
+            {
+                "image": "berlin/gendarmenmarkt.jpg",
+                "name": "Gendarmenmarkt",
+                "time": 247,
+                "weight": 3
+            },
+            {
+                "image": "berlin/jewish_museum.jpg",
+                "name": "Jewish Museum",
+                "time": 197,
+                "weight": 2
+            },
+            {
+                "image": "berlin/zoo_berlin.jpg",
+                "name": "Zoo Berlin",
+                "time": 285,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Amsterdam",
+        "image": "miniatures/amsterdam.jpg",
+        "places": [
+            {
+                "image": "amsterdam/rijksmuseum.jpg",
+                "name": "Rijksmuseum",
+                "time": 253,
+                "weight": 15
+            },
+            {
+                "image": "amsterdam/van_gogh_museum.jpg",
+                "name": "Van Gogh Museum",
+                "time": 101,
+                "weight": 14
+            },
+            {
+                "image": "amsterdam/anne_frank_house.jpg",
+                "name": "Anne Frank House",
+                "time": 277,
+                "weight": 13
+            },
+            {
+                "image": "amsterdam/jordaan.jpg",
+                "name": "Jordaan",
+                "time": 256,
+                "weight": 12
+            },
+            {
+                "image": "amsterdam/vondelpark.jpg",
+                "name": "Vondelpark",
+                "time": 242,
+                "weight": 11
+            },
+            {
+                "image": "amsterdam/heineken_experience.jpg",
+                "name": "Heineken Experience",
+                "time": 182,
+                "weight": 10
+            },
+            {
+                "image": "amsterdam/amsterdam_canals.jpg",
+                "name": "Amsterdam Canals",
+                "time": 95,
+                "weight": 9
+            },
+            {
+                "image": "amsterdam/dam_square.jpg",
+                "name": "Dam Square",
+                "time": 125,
+                "weight": 8
+            },
+            {
+                "image": "amsterdam/royal_palace_of_amsterdam.jpg",
+                "name": "Royal Palace of Amsterdam",
+                "time": 255,
+                "weight": 7
+            },
+            {
+                "image": "amsterdam/rembrandt_house_museum.jpg",
+                "name": "Rembrandt House Museum",
+                "time": 157,
+                "weight": 6
+            },
+            {
+                "image": "amsterdam/nemo_science_museum.jpg",
+                "name": "NEMO Science Museum",
+                "time": 183,
+                "weight": 5
+            },
+            {
+                "image": "amsterdam/stedelijk_museum.jpg",
+                "name": "Stedelijk Museum",
+                "time": 116,
+                "weight": 4
+            },
+            {
+                "image": "amsterdam/bloemenmarkt.jpg",
+                "name": "Bloemenmarkt",
+                "time": 145,
+                "weight": 3
+            },
+            {
+                "image": "amsterdam/amsterdam_museum.jpg",
+                "name": "Amsterdam Museum",
+                "time": 211,
+                "weight": 2
+            },
+            {
+                "image": "amsterdam/oude_kerk.jpg",
+                "name": "Oude Kerk",
+                "time": 297,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Vienna",
+        "image": "miniatures/vienna.jpg",
+        "places": [
+            {
+                "image": "vienna/schönbrunn_palace.jpg",
+                "name": "Schönbrunn Palace",
+                "time": 201,
+                "weight": 15
+            },
+            {
+                "image": "vienna/belvedere_palace.jpg",
+                "name": "Belvedere Palace",
+                "time": 139,
+                "weight": 14
+            },
+            {
+                "image": "vienna/st._stephen's_cathedral.jpg",
+                "name": "St. Stephen's Cathedral",
+                "time": 292,
+                "weight": 13
+            },
+            {
+                "image": "vienna/hofburg_imperial_palace.jpg",
+                "name": "Hofburg Imperial Palace",
+                "time": 213,
+                "weight": 12
+            },
+            {
+                "image": "vienna/prater.jpg",
+                "name": "Prater",
+                "time": 61,
+                "weight": 11
+            },
+            {
+                "image": "vienna/vienna_state_opera.jpg",
+                "name": "Vienna State Opera",
+                "time": 290,
+                "weight": 10
+            },
+            {
+                "image": "vienna/kunsthistorisches_museum.jpg",
+                "name": "Kunsthistorisches Museum",
+                "time": 252,
+                "weight": 9
+            },
+            {
+                "image": "vienna/albertina.jpg",
+                "name": "Albertina",
+                "time": 108,
+                "weight": 8
+            },
+            {
+                "image": "vienna/rathaus.jpg",
+                "name": "Rathaus",
+                "time": 93,
+                "weight": 7
+            },
+            {
+                "image": "vienna/vienna_city_hall.jpg",
+                "name": "Vienna City Hall",
+                "time": 166,
+                "weight": 6
+            },
+            {
+                "image": "vienna/naschmarkt.jpg",
+                "name": "Naschmarkt",
+                "time": 174,
+                "weight": 5
+            },
+            {
+                "image": "vienna/museumsquartier.jpg",
+                "name": "MuseumsQuartier",
+                "time": 257,
+                "weight": 4
+            },
+            {
+                "image": "vienna/karlskirche.jpg",
+                "name": "Karlskirche",
+                "time": 257,
+                "weight": 3
+            },
+            {
+                "image": "vienna/hundertwasserhaus.jpg",
+                "name": "Hundertwasserhaus",
+                "time": 139,
+                "weight": 2
+            },
+            {
+                "image": "vienna/spanish_riding_school.jpg",
+                "name": "Spanish Riding School",
+                "time": 245,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Madrid",
+        "image": "miniatures/madrid.jpg",
+        "places": [
+            {
+                "image": "madrid/prado_museum.jpg",
+                "name": "Prado Museum",
+                "time": 288,
+                "weight": 15
+            },
+            {
+                "image": "madrid/royal_palace_of_madrid.jpg",
+                "name": "Royal Palace of Madrid",
+                "time": 106,
+                "weight": 14
+            },
+            {
+                "image": "madrid/retiro_park.jpg",
+                "name": "Retiro Park",
+                "time": 284,
+                "weight": 13
+            },
+            {
+                "image": "madrid/thyssen-bornemisza_museum.jpg",
+                "name": "Thyssen-Bornemisza Museum",
+                "time": 83,
+                "weight": 12
+            },
+            {
+                "image": "madrid/santiago_bernabéu_stadium.jpg",
+                "name": "Santiago Bernabéu Stadium",
+                "time": 216,
+                "weight": 11
+            },
+            {
+                "image": "madrid/plaza_mayor.jpg",
+                "name": "Plaza Mayor",
+                "time": 265,
+                "weight": 10
+            },
+            {
+                "image": "madrid/gran_vía.jpg",
+                "name": "Gran Vía",
+                "time": 82,
+                "weight": 9
+            },
+            {
+                "image": "madrid/queen_sofia_arts_center.jpg",
+                "name": "Queen Sofia Arts Center",
+                "time": 254,
+                "weight": 8
+            },
+            {
+                "image": "madrid/el_rastro_market.jpg",
+                "name": "El Rastro Market",
+                "time": 64,
+                "weight": 7
+            },
+            {
+                "image": "madrid/debod_temple.jpg",
+                "name": "Debod Temple",
+                "time": 202,
+                "weight": 6
+            },
+            {
+                "image": "madrid/almudena_cathedral.jpg",
+                "name": "Almudena Cathedral",
+                "time": 230,
+                "weight": 5
+            },
+            {
+                "image": "madrid/caixaforum.jpg",
+                "name": "CaixaForum",
+                "time": 88,
+                "weight": 4
+            },
+            {
+                "image": "madrid/puerta_del_sol.jpg",
+                "name": "Puerta del Sol",
+                "time": 247,
+                "weight": 3
+            },
+            {
+                "image": "madrid/national_archaeological_museum.jpg",
+                "name": "National Archaeological Museum",
+                "time": 298,
+                "weight": 2
+            },
+            {
+                "image": "madrid/cibeles_palace.jpg",
+                "name": "Cibeles Palace",
+                "time": 241,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Lisbon",
+        "image": "miniatures/lisbon.jpg",
+        "places": [
+            {
+                "image": "lisbon/jerónimos_monastery.jpg",
+                "name": "Jerónimos Monastery",
+                "time": 141,
+                "weight": 15
+            },
+            {
+                "image": "lisbon/belem_tower.jpg",
+                "name": "Belem Tower",
+                "time": 143,
+                "weight": 14
+            },
+            {
+                "image": "lisbon/st._george's_castle.jpg",
+                "name": "St. George's Castle",
+                "time": 213,
+                "weight": 13
+            },
+            {
+                "image": "lisbon/praça_do_comércio.jpg",
+                "name": "Praça do Comércio",
+                "time": 116,
+                "weight": 12
+            },
+            {
+                "image": "lisbon/oceanário_de_lisboa.jpg",
+                "name": "Oceanário de Lisboa",
+                "time": 144,
+                "weight": 11
+            },
+            {
+                "image": "lisbon/bairro_alto.jpg",
+                "name": "Bairro Alto",
+                "time": 105,
+                "weight": 10
+            },
+            {
+                "image": "lisbon/alfama.jpg",
+                "name": "Alfama",
+                "time": 83,
+                "weight": 9
+            },
+            {
+                "image": "lisbon/gulbenkian_museum.jpg",
+                "name": "Gulbenkian Museum",
+                "time": 103,
+                "weight": 8
+            },
+            {
+                "image": "lisbon/santa_justa_lift.jpg",
+                "name": "Santa Justa Lift",
+                "time": 225,
+                "weight": 7
+            },
+            {
+                "image": "lisbon/chiado.jpg",
+                "name": "Chiado",
+                "time": 126,
+                "weight": 6
+            },
+            {
+                "image": "lisbon/rossio_square.jpg",
+                "name": "Rossio Square",
+                "time": 194,
+                "weight": 5
+            },
+            {
+                "image": "lisbon/lisbon_zoo.jpg",
+                "name": "Lisbon Zoo",
+                "time": 166,
+                "weight": 4
+            },
+            {
+                "image": "lisbon/maat.jpg",
+                "name": "MAAT",
+                "time": 252,
+                "weight": 3
+            },
+            {
+                "image": "lisbon/amoreiras.jpg",
+                "name": "Amoreiras",
+                "time": 63,
+                "weight": 2
+            },
+            {
+                "image": "lisbon/lx_factory.jpg",
+                "name": "LX Factory",
+                "time": 89,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Prague",
+        "image": "miniatures/prague.jpg",
+        "places": [
+            {
+                "image": "prague/prague_castle.jpg",
+                "name": "Prague Castle",
+                "time": 268,
+                "weight": 15
+            },
+            {
+                "image": "prague/charles_bridge.jpg",
+                "name": "Charles Bridge",
+                "time": 80,
+                "weight": 14
+            },
+            {
+                "image": "prague/old_town_square.jpg",
+                "name": "Old Town Square",
+                "time": 121,
+                "weight": 13
+            },
+            {
+                "image": "prague/st._vitus_cathedral.jpg",
+                "name": "St. Vitus Cathedral",
+                "time": 90,
+                "weight": 12
+            },
+            {
+                "image": "prague/astronomical_clock.jpg",
+                "name": "Astronomical Clock",
+                "time": 118,
+                "weight": 11
+            },
+            {
+                "image": "prague/wenceslas_square.jpg",
+                "name": "Wenceslas Square",
+                "time": 176,
+                "weight": 10
+            },
+            {
+                "image": "prague/national_museum.jpg",
+                "name": "National Museum",
+                "time": 72,
+                "weight": 9
+            },
+            {
+                "image": "prague/lennon_wall.jpg",
+                "name": "Lennon Wall",
+                "time": 136,
+                "weight": 8
+            },
+            {
+                "image": "prague/vyšehrad.jpg",
+                "name": "Vyšehrad",
+                "time": 103,
+                "weight": 7
+            },
+            {
+                "image": "prague/josefov.jpg",
+                "name": "Josefov",
+                "time": 173,
+                "weight": 6
+            },
+            {
+                "image": "prague/petřín.jpg",
+                "name": "Petřín",
+                "time": 130,
+                "weight": 5
+            },
+            {
+                "image": "prague/dancing_house.jpg",
+                "name": "Dancing House",
+                "time": 255,
+                "weight": 4
+            },
+            {
+                "image": "prague/mala_strana.jpg",
+                "name": "Mala Strana",
+                "time": 185,
+                "weight": 3
+            },
+            {
+                "image": "prague/prague_zoo.jpg",
+                "name": "Prague Zoo",
+                "time": 118,
+                "weight": 2
+            },
+            {
+                "image": "prague/national_theatre.jpg",
+                "name": "National Theatre",
+                "time": 118,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "New York",
+        "image": "miniatures/new_york.jpg",
+        "places": [
+            {
+                "image": "new_york/statue_of_liberty.jpg",
+                "name": "Statue of Liberty",
+                "time": 256,
+                "weight": 15
+            },
+            {
+                "image": "new_york/central_park.jpg",
+                "name": "Central Park",
+                "time": 192,
+                "weight": 14
+            },
+            {
+                "image": "new_york/times_square.jpg",
+                "name": "Times Square",
+                "time": 119,
+                "weight": 13
+            },
+            {
+                "image": "new_york/empire_state_building.jpg",
+                "name": "Empire State Building",
+                "time": 261,
+                "weight": 12
+            },
+            {
+                "image": "new_york/metropolitan_museum_of_art.jpg",
+                "name": "Metropolitan Museum of Art",
+                "time": 238,
+                "weight": 11
+            },
+            {
+                "image": "new_york/broadway.jpg",
+                "name": "Broadway",
+                "time": 239,
+                "weight": 10
+            },
+            {
+                "image": "new_york/one_world_observatory.jpg",
+                "name": "One World Observatory",
+                "time": 64,
+                "weight": 9
+            },
+            {
+                "image": "new_york/brooklyn_bridge.jpg",
+                "name": "Brooklyn Bridge",
+                "time": 158,
+                "weight": 8
+            },
+            {
+                "image": "new_york/museum_of_modern_art.jpg",
+                "name": "Museum of Modern Art",
+                "time": 172,
+                "weight": 7
+            },
+            {
+                "image": "new_york/high_line.jpg",
+                "name": "High Line",
+                "time": 100,
+                "weight": 6
+            },
+            {
+                "image": "new_york/grand_central_terminal.jpg",
+                "name": "Grand Central Terminal",
+                "time": 246,
+                "weight": 5
+            },
+            {
+                "image": "new_york/rockefeller_center.jpg",
+                "name": "Rockefeller Center",
+                "time": 123,
+                "weight": 4
+            },
+            {
+                "image": "new_york/american_museum_of_natural_history.jpg",
+                "name": "American Museum of Natural History",
+                "time": 160,
+                "weight": 3
+            },
+            {
+                "image": "new_york/5th_avenue.jpg",
+                "name": "5th Avenue",
+                "time": 273,
+                "weight": 2
+            },
+            {
+                "image": "new_york/wall_street.jpg",
+                "name": "Wall Street",
+                "time": 292,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Tokyo",
+        "image": "miniatures/tokyo.jpg",
+        "places": [
+            {
+                "image": "tokyo/tokyo_tower.jpg",
+                "name": "Tokyo Tower",
+                "time": 107,
+                "weight": 15
+            },
+            {
+                "image": "tokyo/meiji_shrine.jpg",
+                "name": "Meiji Shrine",
+                "time": 139,
+                "weight": 14
+            },
+            {
+                "image": "tokyo/asakusa_shrine.jpg",
+                "name": "Asakusa Shrine",
+                "time": 69,
+                "weight": 13
+            },
+            {
+                "image": "tokyo/tokyo_disneyland.jpg",
+                "name": "Tokyo Disneyland",
+                "time": 105,
+                "weight": 12
+            },
+            {
+                "image": "tokyo/shinjuku_gyoen_national_garden.jpg",
+                "name": "Shinjuku Gyoen National Garden",
+                "time": 208,
+                "weight": 11
+            },
+            {
+                "image": "tokyo/akihabara.jpg",
+                "name": "Akihabara",
+                "time": 158,
+                "weight": 10
+            },
+            {
+                "image": "tokyo/tsukiji_outer_market.jpg",
+                "name": "Tsukiji Outer Market",
+                "time": 63,
+                "weight": 9
+            },
+            {
+                "image": "tokyo/tokyo_national_museum.jpg",
+                "name": "Tokyo National Museum",
+                "time": 141,
+                "weight": 8
+            },
+            {
+                "image": "tokyo/ueno_park.jpg",
+                "name": "Ueno Park",
+                "time": 87,
+                "weight": 7
+            },
+            {
+                "image": "tokyo/roppongi_hills.jpg",
+                "name": "Roppongi Hills",
+                "time": 125,
+                "weight": 6
+            },
+            {
+                "image": "tokyo/ginza_shopping_district.jpg",
+                "name": "Ginza Shopping District",
+                "time": 73,
+                "weight": 5
+            },
+            {
+                "image": "tokyo/imperial_palace.jpg",
+                "name": "Imperial Palace",
+                "time": 106,
+                "weight": 4
+            },
+            {
+                "image": "tokyo/odaiba.jpg",
+                "name": "Odaiba",
+                "time": 130,
+                "weight": 3
+            },
+            {
+                "image": "tokyo/shibuya_crossing.jpg",
+                "name": "Shibuya Crossing",
+                "time": 96,
+                "weight": 2
+            },
+            {
+                "image": "tokyo/tokyo_skytree.jpg",
+                "name": "Tokyo Skytree",
+                "time": 285,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Sydney",
+        "image": "miniatures/sydney.jpg",
+        "places": [
+            {
+                "image": "sydney/sydney_opera_house.jpg",
+                "name": "Sydney Opera House",
+                "time": 70,
+                "weight": 15
+            },
+            {
+                "image": "sydney/sydney_harbour_bridge.jpg",
+                "name": "Sydney Harbour Bridge",
+                "time": 292,
+                "weight": 14
+            },
+            {
+                "image": "sydney/bondi_beach.jpg",
+                "name": "Bondi Beach",
+                "time": 216,
+                "weight": 13
+            },
+            {
+                "image": "sydney/royal_botanic_garden.jpg",
+                "name": "Royal Botanic Garden",
+                "time": 200,
+                "weight": 12
+            },
+            {
+                "image": "sydney/darling_harbour.jpg",
+                "name": "Darling Harbour",
+                "time": 184,
+                "weight": 11
+            },
+            {
+                "image": "sydney/taronga_zoo.jpg",
+                "name": "Taronga Zoo",
+                "time": 154,
+                "weight": 10
+            },
+            {
+                "image": "sydney/the_rocks.jpg",
+                "name": "The Rocks",
+                "time": 97,
+                "weight": 9
+            },
+            {
+                "image": "sydney/sydney_tower_eye.jpg",
+                "name": "Sydney Tower Eye",
+                "time": 273,
+                "weight": 8
+            },
+            {
+                "image": "sydney/manly_beach.jpg",
+                "name": "Manly Beach",
+                "time": 151,
+                "weight": 7
+            },
+            {
+                "image": "sydney/museum_of_contemporary_art.jpg",
+                "name": "Museum of Contemporary Art",
+                "time": 90,
+                "weight": 6
+            },
+            {
+                "image": "sydney/luna_park.jpg",
+                "name": "Luna Park",
+                "time": 109,
+                "weight": 5
+            },
+            {
+                "image": "sydney/sea_life_sydney_aquarium.jpg",
+                "name": "SEA LIFE Sydney Aquarium",
+                "time": 296,
+                "weight": 4
+            },
+            {
+                "image": "sydney/barangaroo_reserve.jpg",
+                "name": "Barangaroo Reserve",
+                "time": 97,
+                "weight": 3
+            },
+            {
+                "image": "sydney/queen_victoria_building.jpg",
+                "name": "Queen Victoria Building",
+                "time": 138,
+                "weight": 2
+            },
+            {
+                "image": "sydney/kings_cross.jpg",
+                "name": "Kings Cross",
+                "time": 67,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Cape Town",
+        "image": "miniatures/cape_town.jpg",
+        "places": [
+            {
+                "image": "cape_town/table_mountain.jpg",
+                "name": "Table Mountain",
+                "time": 136,
+                "weight": 15
+            },
+            {
+                "image": "cape_town/robben_island.jpg",
+                "name": "Robben Island",
+                "time": 229,
+                "weight": 14
+            },
+            {
+                "image": "cape_town/kirstenbosch_national_botanical_garden.jpg",
+                "name": "Kirstenbosch National Botanical Garden",
+                "time": 178,
+                "weight": 13
+            },
+            {
+                "image": "cape_town/victoria_&_alfred_waterfront.jpg",
+                "name": "Victoria & Alfred Waterfront",
+                "time": 150,
+                "weight": 12
+            },
+            {
+                "image": "cape_town/cape_of_good_hope.jpg",
+                "name": "Cape of Good Hope",
+                "time": 182,
+                "weight": 11
+            },
+            {
+                "image": "cape_town/boulders_beach.jpg",
+                "name": "Boulders Beach",
+                "time": 203,
+                "weight": 10
+            },
+            {
+                "image": "cape_town/lion's_head.jpg",
+                "name": "Lion's Head",
+                "time": 172,
+                "weight": 9
+            },
+            {
+                "image": "cape_town/two_oceans_aquarium.jpg",
+                "name": "Two Oceans Aquarium",
+                "time": 204,
+                "weight": 8
+            },
+            {
+                "image": "cape_town/district_six_museum.jpg",
+                "name": "District Six Museum",
+                "time": 78,
+                "weight": 7
+            },
+            {
+                "image": "cape_town/castle_of_good_hope.jpg",
+                "name": "Castle of Good Hope",
+                "time": 274,
+                "weight": 6
+            },
+            {
+                "image": "cape_town/bo-kaap.jpg",
+                "name": "Bo-Kaap",
+                "time": 264,
+                "weight": 5
+            },
+            {
+                "image": "cape_town/greenmarket_square.jpg",
+                "name": "Greenmarket Square",
+                "time": 270,
+                "weight": 4
+            },
+            {
+                "image": "cape_town/camps_bay_beach.jpg",
+                "name": "Camps Bay Beach",
+                "time": 279,
+                "weight": 3
+            },
+            {
+                "image": "cape_town/signal_hill.jpg",
+                "name": "Signal Hill",
+                "time": 146,
+                "weight": 2
+            },
+            {
+                "image": "cape_town/chapman's_peak_drive.jpg",
+                "name": "Chapman's Peak Drive",
+                "time": 91,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Bangkok",
+        "image": "miniatures/bangkok.jpg",
+        "places": [
+            {
+                "image": "bangkok/grand_palace.jpg",
+                "name": "Grand Palace",
+                "time": 213,
+                "weight": 15
+            },
+            {
+                "image": "bangkok/wat_arun.jpg",
+                "name": "Wat Arun",
+                "time": 173,
+                "weight": 14
+            },
+            {
+                "image": "bangkok/wat_pho.jpg",
+                "name": "Wat Pho",
+                "time": 142,
+                "weight": 13
+            },
+            {
+                "image": "bangkok/chatuchak_weekend_market.jpg",
+                "name": "Chatuchak Weekend Market",
+                "time": 88,
+                "weight": 12
+            },
+            {
+                "image": "bangkok/jim_thompson_house.jpg",
+                "name": "Jim Thompson House",
+                "time": 63,
+                "weight": 11
+            },
+            {
+                "image": "bangkok/bangkok_national_museum.jpg",
+                "name": "Bangkok National Museum",
+                "time": 275,
+                "weight": 10
+            },
+            {
+                "image": "bangkok/lumpini_park.jpg",
+                "name": "Lumpini Park",
+                "time": 154,
+                "weight": 9
+            },
+            {
+                "image": "bangkok/mbk_center.jpg",
+                "name": "MBK Center",
+                "time": 77,
+                "weight": 8
+            },
+            {
+                "image": "bangkok/asiatique_the_riverfront.jpg",
+                "name": "Asiatique The Riverfront",
+                "time": 195,
+                "weight": 7
+            },
+            {
+                "image": "bangkok/erawan_shrine.jpg",
+                "name": "Erawan Shrine",
+                "time": 126,
+                "weight": 6
+            },
+            {
+                "image": "bangkok/terminal_21_shopping_mall.jpg",
+                "name": "Terminal 21 Shopping Mall",
+                "time": 144,
+                "weight": 5
+            },
+            {
+                "image": "bangkok/golden_mount.jpg",
+                "name": "Golden Mount",
+                "time": 136,
+                "weight": 4
+            },
+            {
+                "image": "bangkok/safari_world.jpg",
+                "name": "Safari World",
+                "time": 83,
+                "weight": 3
+            },
+            {
+                "image": "bangkok/bangkok_art_and_culture_centre.jpg",
+                "name": "Bangkok Art and Culture Centre",
+                "time": 190,
+                "weight": 2
+            },
+            {
+                "image": "bangkok/chao_phraya_river.jpg",
+                "name": "Chao Phraya River",
+                "time": 173,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Mumbai",
+        "image": "miniatures/mumbai.jpg",
+        "places": [
+            {
+                "image": "mumbai/gateway_of_india.jpg",
+                "name": "Gateway of India",
+                "time": 217,
+                "weight": 15
+            },
+            {
+                "image": "mumbai/elephanta_caves.jpg",
+                "name": "Elephanta Caves",
+                "time": 253,
+                "weight": 14
+            },
+            {
+                "image": "mumbai/marine_drive.jpg",
+                "name": "Marine Drive",
+                "time": 171,
+                "weight": 13
+            },
+            {
+                "image": "mumbai/chhatrapati_shivaji_maharaj_terminus.jpg",
+                "name": "Chhatrapati Shivaji Maharaj Terminus",
+                "time": 236,
+                "weight": 12
+            },
+            {
+                "image": "mumbai/haji_ali_dargah.jpg",
+                "name": "Haji Ali Dargah",
+                "time": 216,
+                "weight": 11
+            },
+            {
+                "image": "mumbai/bandra-worli_sea_link.jpg",
+                "name": "Bandra-Worli Sea Link",
+                "time": 89,
+                "weight": 10
+            },
+            {
+                "image": "mumbai/siddhivinayak_temple.jpg",
+                "name": "Siddhivinayak Temple",
+                "time": 140,
+                "weight": 9
+            },
+            {
+                "image": "mumbai/colaba_causeway.jpg",
+                "name": "Colaba Causeway",
+                "time": 122,
+                "weight": 8
+            },
+            {
+                "image": "mumbai/juhu_beach.jpg",
+                "name": "Juhu Beach",
+                "time": 182,
+                "weight": 7
+            },
+            {
+                "image": "mumbai/esselworld.jpg",
+                "name": "EsselWorld",
+                "time": 72,
+                "weight": 6
+            },
+            {
+                "image": "mumbai/sanjay_gandhi_national_park.jpg",
+                "name": "Sanjay Gandhi National Park",
+                "time": 300,
+                "weight": 5
+            },
+            {
+                "image": "mumbai/prince_of_wales_museum.jpg",
+                "name": "Prince of Wales Museum",
+                "time": 228,
+                "weight": 4
+            },
+            {
+                "image": "mumbai/dharavi_slum.jpg",
+                "name": "Dharavi Slum",
+                "time": 147,
+                "weight": 3
+            },
+            {
+                "image": "mumbai/crawford_market.jpg",
+                "name": "Crawford Market",
+                "time": 111,
+                "weight": 2
+            },
+            {
+                "image": "mumbai/rajabai_clock_tower.jpg",
+                "name": "Rajabai Clock Tower",
+                "time": 288,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Rio de Janeiro",
+        "image": "miniatures/rio_de_janeiro.jpg",
+        "places": [
+            {
+                "image": "rio_de_janeiro/christ_the_redeemer.jpg",
+                "name": "Christ the Redeemer",
+                "time": 268,
+                "weight": 15
+            },
+            {
+                "image": "rio_de_janeiro/sugarloaf_mountain.jpg",
+                "name": "Sugarloaf Mountain",
+                "time": 257,
+                "weight": 14
+            },
+            {
+                "image": "rio_de_janeiro/copacabana_beach.jpg",
+                "name": "Copacabana Beach",
+                "time": 149,
+                "weight": 13
+            },
+            {
+                "image": "rio_de_janeiro/ipanema_beach.jpg",
+                "name": "Ipanema Beach",
+                "time": 295,
+                "weight": 12
+            },
+            {
+                "image": "rio_de_janeiro/maracanã_stadium.jpg",
+                "name": "Maracanã Stadium",
+                "time": 91,
+                "weight": 11
+            },
+            {
+                "image": "rio_de_janeiro/theatro_municipal.jpg",
+                "name": "Theatro Municipal",
+                "time": 150,
+                "weight": 10
+            },
+            {
+                "image": "rio_de_janeiro/jardim_botânico.jpg",
+                "name": "Jardim Botânico",
+                "time": 213,
+                "weight": 9
+            },
+            {
+                "image": "rio_de_janeiro/museu_do_amanhã.jpg",
+                "name": "Museu do Amanhã",
+                "time": 169,
+                "weight": 8
+            },
+            {
+                "image": "rio_de_janeiro/santa_teresa_neighborhood.jpg",
+                "name": "Santa Teresa Neighborhood",
+                "time": 228,
+                "weight": 7
+            },
+            {
+                "image": "rio_de_janeiro/lapa_arches.jpg",
+                "name": "Lapa Arches",
+                "time": 101,
+                "weight": 6
+            },
+            {
+                "image": "rio_de_janeiro/quinta_da_boa_vista.jpg",
+                "name": "Quinta da Boa Vista",
+                "time": 98,
+                "weight": 5
+            },
+            {
+                "image": "rio_de_janeiro/selarón_steps.jpg",
+                "name": "Selarón Steps",
+                "time": 273,
+                "weight": 4
+            },
+            {
+                "image": "rio_de_janeiro/rio_zoo.jpg",
+                "name": "Rio Zoo",
+                "time": 193,
+                "weight": 3
+            },
+            {
+                "image": "rio_de_janeiro/museum_of_tomorrow.jpg",
+                "name": "Museum of Tomorrow",
+                "time": 86,
+                "weight": 2
+            },
+            {
+                "image": "rio_de_janeiro/rodrigo_de_freitas_lagoon.jpg",
+                "name": "Rodrigo de Freitas Lagoon",
+                "time": 281,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Cairo",
+        "image": "miniatures/cairo.jpg",
+        "places": [
+            {
+                "image": "cairo/pyramids_of_giza.jpg",
+                "name": "Pyramids of Giza",
+                "time": 135,
+                "weight": 15
+            },
+            {
+                "image": "cairo/egyptian_museum.jpg",
+                "name": "Egyptian Museum",
+                "time": 212,
+                "weight": 14
+            },
+            {
+                "image": "cairo/khan_el-khalili.jpg",
+                "name": "Khan el-Khalili",
+                "time": 233,
+                "weight": 13
+            },
+            {
+                "image": "cairo/al-azhar_mosque.jpg",
+                "name": "Al-Azhar Mosque",
+                "time": 192,
+                "weight": 12
+            },
+            {
+                "image": "cairo/cairo_tower.jpg",
+                "name": "Cairo Tower",
+                "time": 235,
+                "weight": 11
+            },
+            {
+                "image": "cairo/coptic_cairo.jpg",
+                "name": "Coptic Cairo",
+                "time": 71,
+                "weight": 10
+            },
+            {
+                "image": "cairo/saladin_citadel.jpg",
+                "name": "Saladin Citadel",
+                "time": 223,
+                "weight": 9
+            },
+            {
+                "image": "cairo/memphis.jpg",
+                "name": "Memphis",
+                "time": 274,
+                "weight": 8
+            },
+            {
+                "image": "cairo/dahshur.jpg",
+                "name": "Dahshur",
+                "time": 267,
+                "weight": 7
+            },
+            {
+                "image": "cairo/sakkara.jpg",
+                "name": "Sakkara",
+                "time": 126,
+                "weight": 6
+            },
+            {
+                "image": "cairo/nile_river_cruises.jpg",
+                "name": "Nile River Cruises",
+                "time": 123,
+                "weight": 5
+            },
+            {
+                "image": "cairo/mokattam_hill.jpg",
+                "name": "Mokattam Hill",
+                "time": 126,
+                "weight": 4
+            },
+            {
+                "image": "cairo/cairo_opera_house.jpg",
+                "name": "Cairo Opera House",
+                "time": 183,
+                "weight": 3
+            },
+            {
+                "image": "cairo/zamalek_district.jpg",
+                "name": "Zamalek District",
+                "time": 152,
+                "weight": 2
+            },
+            {
+                "image": "cairo/city_of_the_dead.jpg",
+                "name": "City of the Dead",
+                "time": 111,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Beijing",
+        "image": "miniatures/beijing.jpg",
+        "places": [
+            {
+                "image": "beijing/great_wall_of_china.jpg",
+                "name": "Great Wall of China",
+                "time": 73,
+                "weight": 15
+            },
+            {
+                "image": "beijing/forbidden_city.jpg",
+                "name": "Forbidden City",
+                "time": 85,
+                "weight": 14
+            },
+            {
+                "image": "beijing/temple_of_heaven.jpg",
+                "name": "Temple of Heaven",
+                "time": 153,
+                "weight": 13
+            },
+            {
+                "image": "beijing/summer_palace.jpg",
+                "name": "Summer Palace",
+                "time": 70,
+                "weight": 12
+            },
+            {
+                "image": "beijing/tiananmen_square.jpg",
+                "name": "Tiananmen Square",
+                "time": 145,
+                "weight": 11
+            },
+            {
+                "image": "beijing/ming_tombs.jpg",
+                "name": "Ming Tombs",
+                "time": 243,
+                "weight": 10
+            },
+            {
+                "image": "beijing/lama_temple.jpg",
+                "name": "Lama Temple",
+                "time": 267,
+                "weight": 9
+            },
+            {
+                "image": "beijing/beihai_park.jpg",
+                "name": "Beihai Park",
+                "time": 265,
+                "weight": 8
+            },
+            {
+                "image": "beijing/national_museum_of_china.jpg",
+                "name": "National Museum of China",
+                "time": 91,
+                "weight": 7
+            },
+            {
+                "image": "beijing/hutong_tour.jpg",
+                "name": "Hutong Tour",
+                "time": 276,
+                "weight": 6
+            },
+            {
+                "image": "beijing/olympic_park.jpg",
+                "name": "Olympic Park",
+                "time": 85,
+                "weight": 5
+            },
+            {
+                "image": "beijing/jingshan_park.jpg",
+                "name": "Jingshan Park",
+                "time": 286,
+                "weight": 4
+            },
+            {
+                "image": "beijing/silk_market.jpg",
+                "name": "Silk Market",
+                "time": 249,
+                "weight": 3
+            },
+            {
+                "image": "beijing/yonghe_temple.jpg",
+                "name": "Yonghe Temple",
+                "time": 98,
+                "weight": 2
+            },
+            {
+                "image": "beijing/wangfujing_street.jpg",
+                "name": "Wangfujing Street",
+                "time": 268,
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "city": "Buenos Aires",
+        "image": "miniatures/buenos_aires.jpg",
+        "places": [
+            {
+                "image": "buenos_aires/obelisco.jpg",
+                "name": "Obelisco",
+                "time": 272,
+                "weight": 15
+            },
+            {
+                "image": "buenos_aires/recoleta_cemetery.jpg",
+                "name": "Recoleta Cemetery",
+                "time": 181,
+                "weight": 14
+            },
+            {
+                "image": "buenos_aires/caminito.jpg",
+                "name": "Caminito",
+                "time": 286,
+                "weight": 13
+            },
+            {
+                "image": "buenos_aires/casa_rosada.jpg",
+                "name": "Casa Rosada",
+                "time": 252,
+                "weight": 12
+            },
+            {
+                "image": "buenos_aires/teatro_colón.jpg",
+                "name": "Teatro Colón",
+                "time": 269,
+                "weight": 11
+            },
+            {
+                "image": "buenos_aires/malba.jpg",
+                "name": "MALBA",
+                "time": 108,
+                "weight": 10
+            },
+            {
+                "image": "buenos_aires/puerto_madero.jpg",
+                "name": "Puerto Madero",
+                "time": 171,
+                "weight": 9
+            },
+            {
+                "image": "buenos_aires/san_telmo_market.jpg",
+                "name": "San Telmo Market",
+                "time": 237,
+                "weight": 8
+            },
+            {
+                "image": "buenos_aires/plaza_de_mayo.jpg",
+                "name": "Plaza de Mayo",
+                "time": 225,
+                "weight": 7
+            },
+            {
+                "image": "buenos_aires/palermo_soho.jpg",
+                "name": "Palermo Soho",
+                "time": 107,
+                "weight": 6
+            },
+            {
+                "image": "buenos_aires/el_ateneo_grand_splendid.jpg",
+                "name": "El Ateneo Grand Splendid",
+                "time": 211,
+                "weight": 5
+            },
+            {
+                "image": "buenos_aires/japanese_garden.jpg",
+                "name": "Japanese Garden",
+                "time": 247,
+                "weight": 4
+            },
+            {
+                "image": "buenos_aires/museo_nacional_de_bellas_artes.jpg",
+                "name": "Museo Nacional de Bellas Artes",
+                "time": 235,
+                "weight": 3
+            },
+            {
+                "image": "buenos_aires/buenos_aires_eco-park.jpg",
+                "name": "Buenos Aires Eco-Park",
+                "time": 287,
+                "weight": 2
+            },
+            {
+                "image": "buenos_aires/tigre_delta.jpg",
+                "name": "Tigre Delta",
+                "time": 172,
+                "weight": 1
+            }
+        ]
+    }
+]

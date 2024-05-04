@@ -11,10 +11,10 @@ import Avatar from 'primevue/avatar'
   >
     <RouterLink class="flex items-center" to="/profile">
       <Avatar 
-        class="mr-4 shadow-md"
+        class="!mr-4 shadow-md"
         image="https://marketplace.canva.com/EAFqNrAJpQs/1/0/1600w/canva-neutral-pink-modern-circle-shape-linkedin-profile-picture-WAhofEY5L1U.jpg" size="xlarge" shape="circle" 
       />
-      <span class="font-bold text-black text-lg">Michelle</span>
+      <p class="!font-bold text-black text-lg">Michelle</p>
     </RouterLink>
   </div>
 </template>
