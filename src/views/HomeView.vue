@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import TripInfo from '../components/TripInfo.vue'
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <TripInfo :country="'propiedad'"></TripInfo>
+  </div>
 </template>
