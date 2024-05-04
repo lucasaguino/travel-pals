@@ -29,9 +29,9 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
   </div>
   <div>
     <header class="flex flex-col items-center p-4">
-      <h3 class="text-5xl">{{ user.name }}</h3>
-      <h5 class="mt-2 text-2xl">Expert Traveller</h5>
-      <p class="mt-3">Visited <span class="font-bold text-xl">22</span> cities and <span class="font-bold text-xl">5</span> countries</p>
+      <h3 class="text-5xl text-center">{{ user.name }}</h3>
+      <h5 class="!mt-3 text-2xl">Expert Traveller</h5>
+      <p class="!mt-3">Visited <span class="!font-bold text-xl">22</span> cities and <span class="!font-bold text-xl">5</span> countries</p>
     </header>
   </div>
   <div class="flex justify-center">

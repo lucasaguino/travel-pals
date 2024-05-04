@@ -7,7 +7,8 @@ import TripForm from '../components/TripForm.vue'
   <div class="banner w-100 !p-10 shadow-inner flex justify-center">
     <TripForm class="!w-[50rem]" />
   </div>
-  <div class="!m-3 ">
+  <div class="!p-5 ">
+    <h2 class="!font-bold !text-2xl !mb-6">My trips</h2>
     <TripInfo 
       :place="'Barcelona'"
       :country="'Spain'"
