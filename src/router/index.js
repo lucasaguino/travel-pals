@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CurrentTripPage from '@/views/CurrentTripPage.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import TripPage from '@/views/TripPage.vue'
+import TripPagePrague from '@/views/TripPagePrague.vue'
 import CreateNewTrip from '@/views/CreateNewTrip.vue'
 import SummaryPageBerlinCathedral from '@/views/SummaryPageBerlinCathedral.vue'
 import SummaryPagePyramids from '@/views/SummaryPagePyramids.vue'
@@ -47,7 +48,12 @@ const router = createRouter({
       component: TripPage,
     },
     {
-      path: '/current-trip',
+      path: '/trip-page-prague',
+      name: 'trip-page-prague',
+      component: TripPagePrague,
+    },
+    {
+      path: '/currentTrip',
       name: 'currentTrip',
       component: CurrentTripPage,
     },
