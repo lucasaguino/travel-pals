@@ -42,9 +42,21 @@ const images = [{
 <div>
 
   <Card class="round-md !m-5">
-    
-    <template #title>Barcelona</template>
-    <template #subtitle>{{ users[2].name }}</template>
+    <template #title>
+      <div class="flex justify-start items-center">
+        <Avatar
+          size="large"
+          class="!mr-3"
+          shape="circle" 
+          image="https://blog.photofeeler.com/wp-content/uploads/2017/12/linkedin-profile-picture.jpg"
+        ></Avatar>
+        <div>
+          <h2 class="font-bold">Barcelona</h2>
+          <h3 class="text-sm">{{ users[2].name }}</h3>
+        </div>
+      </div>
+    </template>
+    <template #subtitle></template>
     <template #content>
   
       <Carousel :value="images" :numVisible="3" :numScroll="3">

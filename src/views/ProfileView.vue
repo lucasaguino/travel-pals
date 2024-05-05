@@ -1,10 +1,14 @@
 <script setup>
 import TripInfo from '@/components/TripInfo.vue';
 import { inject } from 'vue';
+import users from '@/assets/all_travelers_data.json'
+import { useRoute } from 'vue-router';
+
+const route = useRoute()
+const userId = route.params.id
 
 
-
-const user = inject('user')
+const user = users[userId]
 
 const styleInfo = {
   icon: 'pi-map-marker',  
