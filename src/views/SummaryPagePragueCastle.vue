@@ -7,8 +7,8 @@
       <a href="https://maps.app.goo.gl/As7giV7fZBsJP8Sy9" ><i class="pi pi-map-marker text-3xl" style="color: slateblue"></i></a>
       <div class="text-center">
 
-        <h1 class="font-bold text-2xl">Berlin Cathedral</h1>
-        <h3>Berlin, Germany</h3>
+        <h1 class="font-bold text-2xl">Prague Castle</h1>
+        <h3>Prague, Czech Republic</h3>
       
       </div>
       <div></div>
