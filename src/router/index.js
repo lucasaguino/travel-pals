@@ -4,6 +4,7 @@ import SummaryPage from '@/views/SummaryPage.vue'
 import CurrentTripPage from '@/views/CurrentTripPage.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import TripPage from '@/views/TripPage.vue'
+import CreateNewTrip from '@/views/CreateNewTrip.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,7 +15,12 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/profile',
+      path: '/new-trip',
+      name: 'new-trip',
+      component: CreateNewTrip
+    },
+    {
+      path: '/profiles/:id',
       name: 'profile',
       component: ProfileView,
     },
@@ -24,7 +30,7 @@ const router = createRouter({
       component: SummaryPage,
     },
     {
-      path: '/trip-info',
+      path: '/profiles/:id/trips/:trip',
       name: 'trip-info',
       component: TripPage,
     },

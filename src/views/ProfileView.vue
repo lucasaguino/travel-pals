@@ -1,7 +1,5 @@
 <script setup>
-import Timeline from 'primevue/timeline';
-import Card from 'primevue/card';
-
+import TripInfo from '@/components/TripInfo.vue';
 import { inject } from 'vue';
 
 
@@ -34,31 +32,24 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
       <p class="!mt-3">Visited <span class="!font-bold text-xl">22</span> cities and <span class="!font-bold text-xl">5</span> countries</p>
     </header>
   </div>
-  <div class="flex justify-center">
-    <Timeline :value="events" class=" max-w-lg customized-timeline">
-      <template #marker="slotProps">
-          <span class="flex w-[2rem] h-[2rem] items-center justify-center text-white rounded-full z-20 shadow-sm">
-              <i :class="['pi text-fuchsia-600 dark:text-white',slotProps.item.icon]"></i>
-          </span>
-      </template>
-      <template #content="slotProps">
-          <RouterLink to="/trip-info">
-            <Card class="!mb-6">
-              <template #title>
-                  {{ slotProps.item.city }}
-              </template>
-              <template #subtitle>
-              <div class="flex justify-between">
-                <span>{{ slotProps.item.date_start }} - {{ slotProps.item.date_end }}</span>
-              </div>
-              </template>
-              <template #content>
-                  <img v-if="slotProps.item.image" :src="`/images/product/${slotProps.item.image}`" width="200" class="shadow-sm" />
-              </template>
-            </Card>
-          </RouterLink>
-      </template>
-    </Timeline>
+  <div class="!p-5 ">
+    <h2 class="!font-bold !text-2xl !mb-6">Current trips</h2>
+    <TripInfo 
+      :place="'Barcelona'"
+      :country="'Spain'"
+      :start-date="'02/03/2024'"
+      :end-date="'12/03/2024'"
+      ></TripInfo>
+  </div>
+  <div class="!p-5 ">
+    <h2 class="!font-bold !text-2xl !mb-6">Your past trips</h2>
+    <TripInfo 
+      :place="'Barcelona'"
+      :country="'Spain'"
+      :start-date="'02/03/2024'"
+      :end-date="'12/03/2024'"
+      completed
+      ></TripInfo>
   </div>
 </template>
 

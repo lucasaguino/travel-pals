@@ -18,11 +18,5 @@ const name = computed(() => user.name.split(" ")[0])
     <RouterLink to="/">
       <i class="pi pi-send text-4xl text-white !ml-1"></i>
     </RouterLink>
-    <RouterLink class="flex items-center" to="/profile">
-      <Avatar 
-        class="!mr-4 shadow-md"
-        image="https://marketplace.canva.com/EAFqNrAJpQs/1/0/1600w/canva-neutral-pink-modern-circle-shape-linkedin-profile-picture-WAhofEY5L1U.jpg" size="xlarge" shape="circle" 
-      />
-    </RouterLink>
   </div>
 </template>

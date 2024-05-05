@@ -4,6 +4,8 @@ import Card from 'primevue/card'
 import Divider from 'primevue/divider';
 import AvatarGroup from 'primevue/avatargroup';   //Optional for grouping
 import Avatar from 'primevue/avatar';
+import ProgressBar from 'primevue/progressbar';
+
 
 defineProps({
   place: {
@@ -24,13 +26,16 @@ defineProps({
   },
   images: {
     required: false,
+  },
+  completed: {
+    type: Boolean,
   }
 })
 
 </script>
 
 <template>
-  <RouterLink to="/trip-info">
+  <RouterLink to="/profiles/2/trips/3">
     <Card class="rounded-md">
       <template #content>
         <div class="flex justify-between">
@@ -41,7 +46,7 @@ defineProps({
           <h2 class="font-bold opacity-75">{{ country }}</h2>
         </div>
         <Divider class="!mt-3" />
-        <div class="flex justify-start items-center !mt-4">
+        <div class="flex justify-start items-center !mt-4" v-if="completed">
           <AvatarGroup class="!mr-3">
             <Avatar 
               style="z-index: 0;"
@@ -62,6 +67,9 @@ defineProps({
              />
           </AvatarGroup>          
           <span><span class="!font-bold">Sarah, James, Jeaninne</span> and <span class="!font-bold">2</span> more</span>
+        </div>
+        <div v-else>
+          <ProgressBar :value="(8.0/16.0)*100.0"> 8/16 completed tasks</ProgressBar>
         </div>
       </template>
     </Card>

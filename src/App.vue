@@ -3,6 +3,7 @@ import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 import { provide } from 'vue';
 import users from '@/assets/all_travelers_data.json'
+import BottomBar from './components/BottomBar.vue'
 
 const user = users[0]
 
@@ -12,5 +13,7 @@ provide('user', user)
 <template>
   <NavBar />
 
-  <RouterView />
+  <RouterView class="min-h-[39rem]"/>
+  <div class="h-[2rem]"></div>
+  <BottomBar />
 </template>
