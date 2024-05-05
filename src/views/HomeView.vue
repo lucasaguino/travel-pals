@@ -185,7 +185,7 @@ const images3 = [{
                 <div class="border-1 surface-border border-round m-2  p-3">
                     <div class="mb-3">
                         <div class="relative !mx-0.5">
-                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round aspect-[4/3]" />
+                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round" />
                         </div>
                     </div>
                     

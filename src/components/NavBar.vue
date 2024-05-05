@@ -16,7 +16,7 @@ const name = computed(() => user.name.split(" ")[0])
       'bg-violet-600']"
   >
     <RouterLink to="/">
-        <i class="pi pi-send text-4xl text-white !ml-1"></i>
+      <img src="/src/assets/icon.png" class="h-[3rem]">
     </RouterLink>
   </div>
 </template>

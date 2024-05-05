@@ -20,7 +20,6 @@ import AvatarGroup from 'primevue/avatargroup';
         <div class="z-10 h-[4rem] w-full bottom-0 left-0 absolute bg-gradient-to-b from-white/0 to-white/100"></div>
       </div>
     </header>    
-    <RouterLink to="/point-of-interest/prague-castle">
     <Card class="!p-0 !m-5 poi-card rounded-md">
       <template #content>
         <div  class="flex flex-row ">
@@ -53,7 +52,6 @@ import AvatarGroup from 'primevue/avatargroup';
         
       </template>
     </Card>
-  </RouterLink>
     <Card class="!p-0 !m-5 poi-card rounded-md">
       <template #content>
         <div  class="flex flex-row ">
@@ -103,7 +101,7 @@ import AvatarGroup from 'primevue/avatargroup';
         
       </template>
     </Card>
-
+    <RouterLink to="/point-of-interest/berlin-cathedral">
     <Card class="!p-0 !m-5 poi-card rounded-md">
       <template #content>
         <div  class="flex flex-row ">
@@ -132,6 +130,7 @@ import AvatarGroup from 'primevue/avatargroup';
         
       </template>
     </Card>
+  </RouterLink>
 
     <Card class="!p-0 !m-5 poi-card rounded-md">
       <template #content>

@@ -33,16 +33,17 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
     <header class="flex flex-col items-center p-4">
       <h3 class="text-5xl text-center">Paula Hays</h3>
       <h5 class="!mt-3 text-2xl">Beginner Traveller</h5>
-      <p class="!mt-3">Visited <span class="!font-bold text-xl">22</span> cities and <span class="!font-bold text-xl">5</span> countries</p>
+      <p class="!mt-3">Visited  <span class="!font-bold text-xl">19</span> locations in <span class="!font-bold text-xl">3</span> cities and <span class="!font-bold text-xl">3</span> countries</p>
     </header>
   </div>
   <div class="!p-5 ">
     <h2 class="!font-bold !text-2xl !mb-6">Current trip</h2>
     <TripInfo 
-      :place="'Barcelona'"
-      :country="'Spain'"
-      :start-date="'02/03/2024'"
-      :end-date="'12/03/2024'"
+      :link="'/trip-page-prague'"
+      :place="'Prague'"
+      :country="'Czeck Republic'"
+      :start-date="'18/05/2024'"
+      :end-date="'31/05/2024'"
       ></TripInfo>
   </div>
 
