@@ -72,7 +72,7 @@ defineProps({
           <span><span class="!font-bold">Sarah, James, Jeaninne</span> and <span class="!font-bold">2</span> more</span>
         </div>
         <div v-else>
-          <ProgressBar :value="(8.0/16.0)*100.0"> 8/16 completed tasks</ProgressBar>
+          <ProgressBar :value="(2.0/3.0)*100.0"> 2/3 completed tasks</ProgressBar>
         </div>
       </template>
     </Card>

@@ -6,6 +6,7 @@ import TripPage from '@/views/TripPage.vue'
 import TripPagePrague from '@/views/TripPagePrague.vue'
 import TripPageBerlin from '@/views/TripPageBerlin.vue'
 import TripPageCairo from '@/views/TripPageCairo.vue'
+import TripPageMadrid from '@/views/TripPageMadrid.vue'
 import CreateNewTrip from '@/views/CreateNewTrip.vue'
 import SummaryPageBerlinCathedral from '@/views/SummaryPageBerlinCathedral.vue'
 import SummaryPagePyramids from '@/views/SummaryPagePyramids.vue'
@@ -63,6 +64,11 @@ const router = createRouter({
       path: '/trip-page-cairo',
       name: 'trip-page-cairo',
       component: TripPageCairo,
+    },
+    {
+      path: '/trip-page-madrid',
+      name: 'trip-page-madrid',
+      component: TripPageMadrid,
     },
     {
       path: '/currentTrip',

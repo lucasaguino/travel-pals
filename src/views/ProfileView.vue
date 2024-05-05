@@ -40,10 +40,11 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
     <h2 class="!font-bold !text-2xl !mb-6">Current trip</h2>
    
     <TripInfo 
+      :link="'/trip-page-madrid'"
       :place="'Madrid'"
       :country="'Spain'"
-      :start-date="'02/05/2024'"
-      :end-date="'10/05/2024'"
+      :start-date="'04/05/2024'"
+      :end-date="'05/05/2024'"
       ></TripInfo>
   </div>
 
