@@ -29,13 +29,16 @@ defineProps({
   },
   completed: {
     type: Boolean,
+  },
+  link: {
+    type: String,
   }
 })
 
 </script>
 
 <template>
-  <RouterLink to="/profiles/2/trips/3">
+  <RouterLink :to="link">
     <Card class="rounded-md">
       <template #content>
         <div class="flex justify-between">
