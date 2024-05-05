@@ -16,6 +16,7 @@ const selectedCity = ref();
 const cities = ref([
     { name: 'New York', code: 'NY' },
     { name: 'Rome', code: 'RM' },
+    { name: 'Prague', code: 'PRG' },
     { name: 'London', code: 'LDN' },
     { name: 'Istanbul', code: 'IST' },
     { name: 'Paris', code: 'PRS' }
@@ -33,7 +34,7 @@ const dates = ref();
 const dataFilled = computed(() => selectedCity.value && selectedCategory.value && dates.value)
 
 function goToTrip() {
-  router.push('/current-trip')
+  router.push('/trip-page-prague')
 }
 
 </script>

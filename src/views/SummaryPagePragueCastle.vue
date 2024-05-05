@@ -29,7 +29,7 @@
     <Card class="rounded-md" style="margin: 10px;">
       <template #title>Description</template>
       <template #content>
-        <p>Yet to unlock</p>
+        <p>Prague Castle is a historic fortress complex that dominates the city skyline and is one of Prague's most iconic landmarks. From its stunning architecture and panoramic views of the city to its historic palaces and churches, it's a symbol of Czech history and culture that attracts millions of visitors each year, offering a glimpse into the country's rich and storied past.</p>
       </template>
     </Card>
 

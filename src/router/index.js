@@ -5,6 +5,7 @@ import ProfileView from '@/views/ProfileView.vue'
 import TripPage from '@/views/TripPage.vue'
 import TripPagePrague from '@/views/TripPagePrague.vue'
 import TripPageBerlin from '@/views/TripPageBerlin.vue'
+import TripPageCairo from '@/views/TripPageCairo.vue'
 import CreateNewTrip from '@/views/CreateNewTrip.vue'
 import SummaryPageBerlinCathedral from '@/views/SummaryPageBerlinCathedral.vue'
 import SummaryPagePyramids from '@/views/SummaryPagePyramids.vue'
@@ -57,6 +58,11 @@ const router = createRouter({
       path: '/trip-page-berlin',
       name: 'trip-page-berlin',
       component: TripPageBerlin,
+    },
+    {
+      path: '/trip-page-cairo',
+      name: 'trip-page-cairo',
+      component: TripPageCairo,
     },
     {
       path: '/currentTrip',

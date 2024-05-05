@@ -1,5 +1,6 @@
 <script setup>
 import TripForm from '../components/TripForm.vue'
+import { RouterLink } from 'vue-router';
 import Carousel from 'primevue/carousel';
 import Card from 'primevue/card';
 import users from '@/assets/all_travelers_data.json'
@@ -122,8 +123,12 @@ const images3 = [{
     </template>  
   
   </Card>
+    
+
   <Card class="rounded-lg !m-5">
     <template #title>
+  <RouterLink to="/trip-page-berlin">
+
       <div class="flex justify-start items-center">
         <Avatar
           size="large"
@@ -136,6 +141,8 @@ const images3 = [{
           <h3 class="text-sm">Justin Schmitt</h3>
         </div>
       </div>
+  </RouterLink>
+
     </template>
     <template #subtitle></template>
     <template #content>

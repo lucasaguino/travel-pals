@@ -49,6 +49,7 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
   <div class="!p-5 ">
     <h2 class="!font-bold !text-2xl !mb-6">Your past trips</h2>
     <TripInfo 
+      :link="'/trip-page-cairo'"
       :place="'Cairo'"
       :country="'Egypt'"
       :start-date="'12/02/2024'"

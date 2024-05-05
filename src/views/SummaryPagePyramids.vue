@@ -17,7 +17,7 @@ import AvatarGroup from 'primevue/avatargroup';
     </div>
     
 
-      <Card class="bg-cover bg-center m-10 min-h-60 rounded-md" style="margin: 10px; background-image: url(https://lp-cms-production.imgix.net/2020-11/GettyRF_1085205362.jpg?auto=format&w=1440&h=810&fit=crop&q=75);">
+      <Card class="bg-cover bg-center m-10 min-h-60 rounded-md" style="margin: 10px; background-image: url(/src/assets/photos/6/Cairo/pyramids_of_giza.jpg);">
         
       </Card>
 
