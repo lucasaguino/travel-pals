@@ -134,7 +134,7 @@ const images3 = [{
           size="large"
           class="!mr-3"
           shape="circle" 
-          image="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp"
+          image="src/assets/photos/berlin/berlin4.jpeg"
         ></Avatar>
         <div>
           <h2 class="font-bold">Berlin</h2>
