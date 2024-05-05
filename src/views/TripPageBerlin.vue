@@ -35,14 +35,14 @@ import AvatarGroup from 'primevue/avatargroup';
           <AvatarGroup class="!mr-3">
             <Avatar 
              style="margin-left: -14px;z-index: 1"
-              image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfQVsavMhO0GRho8eTKGOpUyyDgmQx8mA6B6M6ovOcA&s" size="medium"  shape="circle" 
             />
             <Avatar 
               style="margin-left: -14px;z-index: 2;"
-              image="https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg" size="medium" shape="circle" 
+              image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium" shape="circle" 
             />
           </AvatarGroup>          
-          <span class="!font-bold">Sarah, James</span>
+          <span class="!font-bold">Claudia, Sarah</span>
         </div>
         </div>
 
@@ -61,22 +61,6 @@ import AvatarGroup from 'primevue/avatargroup';
           <h3 class="text-lg mr-3 !font-bold">Reichstag Building</h3>
           <Divider />
           <p class="!mt-1 !mb-4">Take a photo and show it to the rest of the world!</p>
-
-          <h3 class="text-md mr-3">Who can you find along the way?</h3>
-          <Divider />
-          <div class="flex justify-start items-center !mt-4">
-          <AvatarGroup class="!mr-3">
-            <Avatar 
-             style="margin-left: -14px;z-index: 1"
-              image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
-            />
-            <Avatar 
-              style="margin-left: -14px;z-index: 2;"
-              image="https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg" size="medium" shape="circle" 
-            />
-          </AvatarGroup>          
-          <span class="!font-bold">Sarah, James</span>
-        </div>
         </div>
 
         <div class="basis-1/3 h-[12rem] bg-cover bg-center rounded-r-md" style="background-image: url(src/assets/photos/berlin/berlin2.jpeg)"></div>
@@ -101,14 +85,14 @@ import AvatarGroup from 'primevue/avatargroup';
           <AvatarGroup class="!mr-3">
             <Avatar 
              style="margin-left: -14px;z-index: 1"
-              image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
+              image="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" size="medium"  shape="circle" 
             />
             <Avatar 
               style="margin-left: -14px;z-index: 2;"
-              image="https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg" size="medium" shape="circle" 
+              image="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" size="medium" shape="circle" 
             />
           </AvatarGroup>          
-          <span class="!font-bold">Sarah, James</span>
+          <span class="!font-bold">Travis, Jake</span>
         </div>
         </div>
 
@@ -134,14 +118,10 @@ import AvatarGroup from 'primevue/avatargroup';
           <AvatarGroup class="!mr-3">
             <Avatar 
              style="margin-left: -14px;z-index: 1"
-              image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
-            />
-            <Avatar 
-              style="margin-left: -14px;z-index: 2;"
-              image="https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg" size="medium" shape="circle" 
+              image="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp" size="medium"  shape="circle" 
             />
           </AvatarGroup>          
-          <span class="!font-bold">Sarah, James</span>
+          <span class="!font-bold">Carlos</span>
         </div>
         </div>
 
@@ -167,14 +147,14 @@ import AvatarGroup from 'primevue/avatargroup';
           <AvatarGroup class="!mr-3">
             <Avatar 
              style="margin-left: -14px;z-index: 1"
-              image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToZ_scdbGjP0llkB1cDa5OohFOjJqIawGOmh34Xov_ug&s" size="medium"  shape="circle" 
             />
             <Avatar 
               style="margin-left: -14px;z-index: 2;"
-              image="https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg" size="medium" shape="circle" 
+              image="https://media.licdn.com/dms/image/D4E03AQH_8pUShgI5og/profile-displayphoto-shrink_800_800/0/1696427535833?e=2147483647&v=beta&t=biF06J-_wBgRWs05aQf7nM2TT1PKGur2FFS9ak5TG-E" size="medium" shape="circle" 
             />
           </AvatarGroup>          
-          <span class="!font-bold">Sarah, James</span>
+          <span class="!font-bold">Marcus, Helen</span>
         </div>
         </div>
 
