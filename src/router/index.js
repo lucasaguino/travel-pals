@@ -34,12 +34,12 @@ const router = createRouter({
     },
     {
       path: '/point-of-interest/pyramids',
-      name: 'berlin-cathedral',
+      name: 'pyramids',
       component: SummaryPagePyramids,
     },
     {
       path: '/point-of-interest/prague-castle',
-      name: 'berlin-cathedral',
+      name: 'prague',
       component: SummaryPagePragueCastle,
     },
     {
