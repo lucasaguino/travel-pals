@@ -14,7 +14,7 @@ import AvatarGroup from 'primevue/avatargroup';
           <i class="text-3xl pi pi-map-marker"></i>
         </a>
         <div>
-          <h3 class="text-4xl">Prage</h3>
+          <h3 class="text-4xl">Prague</h3>
           <h5 class="mt-2 text-xl">18/05/2024 - 31/05/2024</h5>
         </div>
         <div class="z-10 h-[4rem] w-full bottom-0 left-0 absolute bg-gradient-to-b from-white/0 to-white/100"></div>
