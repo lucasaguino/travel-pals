@@ -39,20 +39,54 @@ const images = [{
 
 <template>
 
-<div>
+<div class="py-6 bg-gray-200">
 
-  <Card class="round-md !m-5">
+  <h1 class="!ml-8 !font-bold text-4xl">See what your friends are up to!</h1>
+  <Card class="rounded-lg !m-5">
+    <template #title>
+      <div class="flex justify-start items-center">
+        <Avatar
+          size="large"
+          class="!mr-3"
+          shape="circle"
+          image="https://blog.photofeeler.com/wp-content/uploads/2017/12/linkedin-profile-picture.jpg"
+        ></Avatar>
+        <div>
+          <h2 class="font-bold">Barcelona</h2>
+          <h3 class="text-sm">{{ users[2].name }}</h3>
+        </div>
+      </div>
+    </template>
+    <template #subtitle></template>
+    <template #content>
+  
+      <Carousel :value="images" :numVisible="3" :numScroll="3">
+            <template #item="slotProps">
+                <div class="border-1 surface-border border-round m-2  p-3">
+                    <div class="mb-3">
+                        <div class="relative !mx-0.5">
+                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round aspect-[4/3]" />
+                        </div>
+                    </div>
+                    
+                </div>
+            </template>
+          </Carousel>
+    </template>  
+  
+  </Card>
+  <Card class="rounded-lg !m-5">
     <template #title>
       <div class="flex justify-start items-center">
         <Avatar
           size="large"
           class="!mr-3"
           shape="circle" 
-          image="https://blog.photofeeler.com/wp-content/uploads/2017/12/linkedin-profile-picture.jpg"
+          image="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp"
         ></Avatar>
         <div>
-          <h2 class="font-bold">Barcelona</h2>
-          <h3 class="text-sm">{{ users[2].name }}</h3>
+          <h2 class="font-bold">Switzerland</h2>
+          <h3 class="text-sm">{{ users[4].name }}</h3>
         </div>
       </div>
     </template>
