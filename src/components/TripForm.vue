@@ -33,7 +33,7 @@ const dates = ref();
 const dataFilled = computed(() => selectedCity.value && selectedCategory.value && dates.value)
 
 function goToTrip() {
-  router.push('/currentTrip')
+  router.push('/current-trip')
 }
 
 </script>

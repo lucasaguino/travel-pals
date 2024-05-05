@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import SummaryPage from '@/views/SummaryPage.vue'
 import CurrentTripPage from '@/views/CurrentTripPage.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import TripPage from '@/views/TripPage.vue'
 import CreateNewTrip from '@/views/CreateNewTrip.vue'
+import SummaryPageBerlinCathedral from '@/views/SummaryPageBerlinCathedral.vue'
+import SummaryPagePyramids from '@/views/SummaryPagePyramids.vue'
+import SummaryPagePragueCastle from '@/views/SummaryPagePragueCastle.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,9 +27,19 @@ const router = createRouter({
       component: ProfileView,
     },
     {
-      path: '/summary',
-      name: 'summary',
-      component: SummaryPage,
+      path: '/point-of-interest/berlin-cathedral',
+      name: 'berlin-cathedral',
+      component: SummaryPageBerlinCathedral,
+    },
+    {
+      path: '/point-of-interest/pyramids',
+      name: 'berlin-cathedral',
+      component: SummaryPagePyramids,
+    },
+    {
+      path: '/point-of-interest/prague-castle',
+      name: 'berlin-cathedral',
+      component: SummaryPagePragueCastle,
     },
     {
       path: '/profiles/:id/trips/:trip',
@@ -35,7 +47,7 @@ const router = createRouter({
       component: TripPage,
     },
     {
-      path: '/currentTrip',
+      path: '/current-trip',
       name: 'currentTrip',
       component: CurrentTripPage,
     },
