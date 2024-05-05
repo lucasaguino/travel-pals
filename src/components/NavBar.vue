@@ -12,11 +12,11 @@ const name = computed(() => user.name.split(" ")[0])
 
 <template>
   <div 
-    :class="['w-100 p-3 flex justify-between items-center',
-      'bg-gradient-to-b from-indigo-500 to-purple-300']"
+    :class="['w-100 p-3 flex justify-center items-center',
+      'bg-violet-600']"
   >
     <RouterLink to="/">
-      <i class="pi pi-send text-4xl text-white !ml-1"></i>
+        <i class="pi pi-send text-4xl text-white !ml-1"></i>
     </RouterLink>
   </div>
 </template>
