@@ -38,12 +38,24 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
   </div>
   <div class="!p-5 ">
     <h2 class="!font-bold !text-2xl !mb-6">Current trip</h2>
+   
+    <TripInfo 
+      :place="'Madrid'"
+      :country="'Spain'"
+      :start-date="'02/05/2024'"
+      :end-date="'10/05/2024'"
+      ></TripInfo>
+  </div>
+
+  <div class="!p-5 ">
+    <h2 class="!font-bold !text-2xl !mb-6">Upcoming trip</h2>
     <TripInfo 
       :link="'/trip-page-prague'"
       :place="'Prague'"
       :country="'Czeck Republic'"
       :start-date="'18/05/2024'"
       :end-date="'31/05/2024'"
+      completed
       ></TripInfo>
   </div>
 
@@ -64,9 +76,10 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
       :place="'London'"
       :country="'United Kingdom'"
       :start-date="'23/02/2024'"
-      :end-date="'03r/03/2024'"
+      :end-date="'03/03/2024'"
       completed
       ></TripInfo>
+
   </div>
   
 
