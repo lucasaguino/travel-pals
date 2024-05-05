@@ -5,32 +5,80 @@ import Card from 'primevue/card';
 import users from '@/assets/all_travelers_data.json'
 
 const images = [{
-  source: 'https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg',
+  source: 'src/assets/photos/barcelona/bcn1.jpg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
 },
 {
-  source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
+  source: 'src/assets/photos/barcelona/bcn2.jpg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
 },
 {
-  source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
+  source: 'src/assets/photos/barcelona/bcn3.jpg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
 },
 {
-  source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
+  source: 'src/assets/photos/barcelona/bcn4.jpg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
 },
 {
-  source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
+  source: 'src/assets/photos/barcelona/bcn5.jpg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
 },
 {
-  source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
+  source: 'src/assets/photos/barcelona/bcn6.jpg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},]
+
+const images2 = [{
+  source: 'src/assets/photos/berlin/berlin1.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/berlin/berlin2.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/berlin/berlin3.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/berlin/berlin4.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/berlin/berlin5.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},]
+
+
+const images3 = [{
+  source: 'src/assets/photos/newyork/ny1.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/newyork/ny2.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/newyork/ny3.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'src/assets/photos/newyork/ny4.jpeg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
 },]
@@ -52,7 +100,7 @@ const images = [{
         ></Avatar>
         <div>
           <h2 class="font-bold">Barcelona</h2>
-          <h3 class="text-sm">{{ users[2].name }}</h3>
+          <h3 class="text-sm">Peter Alexander</h3>
         </div>
       </div>
     </template>
@@ -64,7 +112,7 @@ const images = [{
                 <div class="border-1 surface-border border-round m-2  p-3">
                     <div class="mb-3">
                         <div class="relative !mx-0.5">
-                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round aspect-[4/3]" />
+                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round" />
                         </div>
                     </div>
                     
@@ -84,6 +132,39 @@ const images = [{
           image="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp"
         ></Avatar>
         <div>
+          <h2 class="font-bold">Berlin</h2>
+          <h3 class="text-sm">Justin Schmitt</h3>
+        </div>
+      </div>
+    </template>
+    <template #subtitle></template>
+    <template #content>
+  
+      <Carousel :value="images2" :numVisible="3" :numScroll="3">
+            <template #item="slotProps">
+                <div class="border-1 surface-border border-round m-2  p-3">
+                    <div class="mb-3">
+                        <div class="relative !mx-0.5">
+                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round aspect-[4/3]" />
+                        </div>
+                    </div>
+                    
+                </div>
+            </template>
+          </Carousel>
+    </template>  
+  
+  </Card>    
+  <Card class="rounded-lg !m-5">
+    <template #title>
+      <div class="flex justify-start items-center">
+        <Avatar
+          size="large"
+          class="!mr-3"
+          shape="circle" 
+          image="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp"
+        ></Avatar>
+        <div>
           <h2 class="font-bold">Switzerland</h2>
           <h3 class="text-sm">{{ users[4].name }}</h3>
         </div>
@@ -92,7 +173,7 @@ const images = [{
     <template #subtitle></template>
     <template #content>
   
-      <Carousel :value="images" :numVisible="3" :numScroll="3">
+      <Carousel :value="images3" :numVisible="3" :numScroll="3">
             <template #item="slotProps">
                 <div class="border-1 surface-border border-round m-2  p-3">
                     <div class="mb-3">
