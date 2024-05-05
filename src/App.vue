@@ -14,6 +14,6 @@ provide('user', user)
   <NavBar />
 
   <RouterView class="min-h-[39rem]"/>
-  <div class="h-[2rem]"></div>
+  <div class="h-[5rem]"></div>
   <BottomBar />
 </template>

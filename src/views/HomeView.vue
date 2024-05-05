@@ -5,6 +5,16 @@ import Card from 'primevue/card';
 import users from '@/assets/all_travelers_data.json'
 
 const images = [{
+  source: 'https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
+  source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
+  person: 2,
+  icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
+},
+{
   source: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sagrada_Familia_1-4-24.jpg/280px-Sagrada_Familia_1-4-24.jpg',
   person: 2,
   icon: 'https://media.licdn.com/dms/image/D4D12AQGsWiQQo-hEew/article-cover_image-shrink_720_1280/0/1705940048112?e=2147483647&v=beta&t=Dm3TYa8aaImrrYHEksUYyCuPe0mRjKNlrKcNMnKjlXc'
@@ -28,24 +38,34 @@ const images = [{
 </script>
 
 <template>
-  <div>
-    <Card class="max-w-[0rem]">
-      <template #content>
-        <div class="!p-3">
-          <h3 class="!font-bold text-md">Copenhague</h3>
-          <h3 class="text-sm !mb-3">{{users[2].name}}</h3>
-          <Carousel :value="images" :numVisible="3" circular  :numScroll="1">
+
+<div>
+
+  <Card class="round-md !m-5">
+    
+    <template #title>Barcelona</template>
+    <template #subtitle>{{ users[2].name }}</template>
+    <template #content>
+  
+      <Carousel :value="images" :numVisible="3" :numScroll="3">
             <template #item="slotProps">
-              <p>test</p>
+                <div class="border-1 surface-border border-round m-2  p-3">
+                    <div class="mb-3">
+                        <div class="relative !mx-0.5">
+                            <img :src="slotProps.data.source" :alt="slotProps.data.name" class="w-full border-round aspect-[4/3]" />
+                        </div>
+                    </div>
+                    
+                </div>
             </template>
           </Carousel>
-        </div>
-      </template>
-    </Card>
-    <div class="banner w-100 !p-10 shadow-inner flex justify-center">
-      <TripForm class="!w-[50rem]" />
-    </div>
-  </div>
+    </template>  
+  
+  </Card>    
+</div>
+
+
+
 </template>
 
 <style scoped>
