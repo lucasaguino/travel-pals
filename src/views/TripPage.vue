@@ -1,6 +1,16 @@
 <script setup>
 import Card from 'primevue/card';
 import Divider from 'primevue/divider';
+import { useRoute } from 'vue-router';
+
+
+const route = useRoute()
+
+const userId = route.params.id
+const tripId = route.params.trip
+
+
+
 </script>
 <template>
     <header class="text-white flex w-100 justify-around items-center relative p-4 bg-cover bg-center"  style="background-image: url(https://media.traveler.es/photos/63838947050e0f92cd80c982/16:9/w_2560%2Cc_limit/GettyImages-1392907424.jpg);">

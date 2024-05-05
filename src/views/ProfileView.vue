@@ -33,7 +33,7 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
     </header>
   </div>
   <div class="!p-5 ">
-    <h2 class="!font-bold !text-2xl !mb-6">Current trips</h2>
+    <h2 class="!font-bold !text-2xl !mb-6">Current trip</h2>
     <TripInfo 
       :place="'Barcelona'"
       :country="'Spain'"

@@ -20,7 +20,7 @@ const name = computed(() => user.name.split(" ")[0])
     <RouterLink class="flex items-center" to="/new-trip">
       <Button icon="pi pi-plus-circle text-3xl" class=""  severity="secondary" rounded  text/>
     </RouterLink>
-    <RouterLink class="flex items-center" to="/profiles/2">
+    <RouterLink class="flex items-center" to="/profiles/0">
       <Button icon="pi pi-user text-3xl" class=""  severity="secondary" rounded  text/>
     </RouterLink>
   </div>
