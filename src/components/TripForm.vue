@@ -39,7 +39,7 @@ function goToTrip() {
 </script>
 
 <template>
-  <Card class="!rounded-lg !m-5 !p-2">
+  <Card class="!rounded-lg !m-0.25 !my-auto !p-2">
       <template #title>
         <h1 class="!font-extrabold">Create your next adventure with us!</h1>
       </template>
@@ -60,7 +60,7 @@ function goToTrip() {
         </div>
 
         <div class="flex justify-end">
-        <Button label="Begin my trip" raised severity="info" @click="goToTrip" aria-label="Confirm" :disabled="!dataFilled" />
+        <Button label="Begin my trip" class="bg-violet-600" severity="info" @click="goToTrip" aria-label="Confirm" :disabled="!dataFilled" />
         </div>
       </template>
   </Card>

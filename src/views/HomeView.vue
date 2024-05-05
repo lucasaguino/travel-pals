@@ -41,7 +41,6 @@ const images = [{
 
 <div class="py-6 bg-gray-200">
 
-  <h1 class="!ml-8 !font-bold text-4xl">See what your friends are up to!</h1>
   <Card class="rounded-lg !m-5">
     <template #title>
       <div class="flex justify-start items-center">

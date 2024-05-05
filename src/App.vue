@@ -13,7 +13,7 @@ provide('user', user)
 <template>
   <NavBar />
 
-  <RouterView class="min-h-[39rem]"/>
+  <RouterView class="min-h-[43rem]"/>
   <div class="h-[3rem]"></div>
   <BottomBar />
 </template>
