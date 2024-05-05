@@ -42,7 +42,7 @@ const events = user.trips.map((el) => ({ ...styleInfo, ...el}))
           </span>
       </template>
       <template #content="slotProps">
-          <RouterLink to="/summary">
+          <RouterLink to="/trip-info">
             <Card class="!mb-6">
               <template #title>
                   {{ slotProps.item.city }}

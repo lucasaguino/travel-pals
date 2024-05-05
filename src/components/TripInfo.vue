@@ -35,7 +35,7 @@ defineProps({
       <template #content>
         <div class="flex justify-between">
           <h2 class="!font-bold">{{ place }}</h2>
-          <h2>From: {{ startDate }} - To: {{ endDate }}</h2>
+          <h2><span class="!font-bold">From:</span> {{ startDate }} - <span class="!font-bold">To:</span> {{ endDate }}</h2>
         </div>
         <div>
           <h2 class="font-bold opacity-75">{{ country }}</h2>

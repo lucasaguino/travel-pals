@@ -17,31 +17,34 @@ import Divider from 'primevue/divider';
       </div>
     </header>
     <div>
-      <Card class="!p-0 !m-5 poi-card rounded-md">
-        <template #content>
-          <div  class="flex flex-row ">
+      <RouterLink to="/summary">
+        <Card class="!p-0 !m-5 poi-card rounded-md">
+          <template #content>
+            <div  class="flex flex-row ">
 
-            <div class="basis-2/3  !m-5">
-              <div class="flex justify-start items-center">
-                <h3 class="text-lg mr-3 !font-bold">Sagrada Familia</h3>
+              <div class="basis-2/3  !m-5">
+                <div class="flex justify-start items-center">
+                  <h3 class="text-lg mr-3 !font-bold">Sagrada Familia</h3>
 
-                <div class="text-white bg-green-500 border border-green-500 rounded-full flex items-center justify-center !m-2 size-6">
-                  <i class="pi pi-check"></i>
-                </div>
-              </div>    
+                  <div class="text-white bg-green-500 border border-green-500 rounded-full flex items-center justify-center !m-2 size-6">
+                    <i class="pi pi-check"></i>
+                  </div>
+                </div>    
 
-              <Divider />
+                <Divider />
+                
+                <p class="!mt-2">Other useful info?</p>
               
-              <p class="!mt-2">Other useful info?</p>
+            </div>
+
+            <div class="basis-1/3 h-[8rem] bg-cover bg-center rounded-r-md" style="background-image: url(https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg)"></div>
+
+            </div>
             
-          </div>
+          </template>
+        </Card>
 
-          <div class="basis-1/3 h-[8rem] bg-cover bg-center rounded-r-md" style="background-image: url(https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg)"></div>
-
-          </div>
-          
-        </template>
-      </Card>
+      </RouterLink>
     </div>
 </template>
 

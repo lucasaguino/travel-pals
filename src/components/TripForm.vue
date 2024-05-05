@@ -45,7 +45,7 @@ function goToTrip() {
       </template>
       <template #content>
         <div class="flex flex-wrap">
-            <p class="!font-bold basis-1/3">Destination </p>
+            <p class="!font-bold basis-1/3">City </p>
             <Dropdown v-model="selectedCity" :options="cities" optionLabel="name" placeholder="Select a City" class="w-full" />
         </div>
         
