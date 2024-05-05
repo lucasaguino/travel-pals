@@ -7,7 +7,7 @@ import AvatarGroup from 'primevue/avatargroup';
 </script>
 <template>
   <div>
-    <header class="h-[15rem] relative text-white flex w-100 justify-around items-center p-4 bg-cover bg-center"  style="background-image: url(https://media.timeout.com/images/105303515/image.jpg);">
+    <header class="h-[15rem] relative text-white flex w-100 justify-around items-center p-4 bg-cover bg-center"  style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Prague_%286365119737%29.jpg/800px-Prague_%286365119737%29.jpg);">
       <div class="absolute w-full h-full bg-black/40"></div>
       <div class="z-20 flex items-center">
         <a class="!mr-5" href="https://www.google.es/maps">
@@ -46,7 +46,7 @@ import AvatarGroup from 'primevue/avatargroup';
         </div>
         </div>
 
-        <div class="basis-1/3 h-[12rem] bg-cover bg-center rounded-r-md" style="background-image: url(src/assets/photos/berlin/berlin2.jpeg)"></div>
+        <div class="basis-1/3 h-[12rem] bg-cover bg-center rounded-r-md" style="background-image: url(https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/032/741/original/78c3ca67b8c6f5ff0495e4dc3584b943/article-czech-republic-st-vitus-cathedral.jpg)"></div>
 
         </div>
         
@@ -67,25 +67,7 @@ import AvatarGroup from 'primevue/avatargroup';
           <div class="flex justify-start items-center !mt-4">
           <AvatarGroup class="!mr-3">
             <Avatar 
-             style="margin-left: -14px;z-index: 1https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
-            />
-            <Avatar 
-              style="margin-left: -14px;z-index: 2;"
-              image="https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg" size="medium" shape="circle" 
-            />
-          </AvatarGroup>          
-          <span class="!font-bold">Sarah, James</span>
-        </div>
-        </div>
-
-        <div class="basis-1/3 h-[12rem] bg-cover bg-center rounded-r-md" style="background-image: url(https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/032/741/original/78c3ca67b8c6f5ff0495e4dc3584b943/article-czech-republic-st-vitus-cathedral.jpg)"></div>
-
-        </div>
-        
-      </template>
-    </Card>
-
-"
+             style="margin-left: -14px;z-index: 1"
               image="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" size="medium"  shape="circle" 
             />
             <Avatar 
